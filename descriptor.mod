@@ -9,7 +9,7 @@ tags={
 	"Military"
 	"Historical"
 	"Translation"
- "Balance"
+	"Balance"
 }
 name="MIREA vs Presidential Academy"
 supported_version="1.16.2"
