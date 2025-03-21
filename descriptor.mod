@@ -1,0 +1,15 @@
+version="1"
+tags={
+	"Events"
+	"Map"
+	"Gameplay"
+	"National Focuses"
+	"Technologies"
+	"Ideologies"
+	"Military"
+	"Historical"
+	"Translation"
+ "Balance"
+}
+name="MIREA vs Presidential Academy"
+supported_version="1.16.2"
