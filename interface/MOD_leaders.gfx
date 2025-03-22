@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_dzerjinkiy"
+		texturefile = "gfx/leaders/MIR/Portrait_MIR_dzerjinkiy.dds" 
+	}
+}

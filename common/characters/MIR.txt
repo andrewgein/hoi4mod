@@ -1,0 +1,28 @@
+characters = {
+
+	MIR_Dzerjinskiy_Roman_Igorevich = { 
+		name = "Dzerjinskiy Roman"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_dzerjinkiy
+			}
+			
+		}
+		country_leader = {
+			ideology = socialism
+			expire = "2055.1.1.1"
+			id = -1
+		}
+		field_marshal = {
+			traits = { politically_connected irregulars_officer }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+
+	
+}

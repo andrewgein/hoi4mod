@@ -9,6 +9,8 @@ set_convoys = 30
 #Starting tech
 set_technology = {}
 
+recruit_character = MIR_Dzerjinskiy_Roman_Igorevich
+
 set_politics = {
   ruling_party = democratic 
   last_election = "1936.1.1"
