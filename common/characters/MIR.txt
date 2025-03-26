@@ -1,5 +1,4 @@
 characters = {
-
 	MIR_Dzerjinskiy_Roman_Igorevich = { 
 		name = "Dzerjinskiy Roman"
 		portraits = {
@@ -9,7 +8,7 @@ characters = {
 			
 		}
 		country_leader = {
-			ideology = socialism
+			ideology=stalinism
 			expire = "2055.1.1.1"
 			id = -1
 		}
@@ -23,6 +22,871 @@ characters = {
 			legacy_id = -1
 		}
 	}
-
 	
+	MIR_Bloerd_Cliort={
+		name="Bloerd Cliort"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MIR_Bloerd_Cliort
+				traits = {	humble 	}
+		}
+
+	}
+	MIR_Uim_Udrald={
+		name="Uim Udrald"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MIR_Uim_Udrald
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	MIR_Tru_Oet={
+		name="Tru Oet"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MIR_Tru_Oet
+				traits = {	headstrong 	}
+		}
+
+	}
+	MIR_Oev_Iobwoa={
+		name="Oev Iobwoa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MIR_Oev_Iobwoa
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	MIR_Dreark_Oelkou={
+		name="Dreark Oelkou"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MIR_Dreark_Oelkou
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	MIR_Droark_Dra={
+		name="Droark Dra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MIR_Droark_Dra
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	MIR_Swirruo_Blerroe={
+		name="Swirruo Blerroe"
+
+		advisor={
+			slot = army_chief
+			idea_token = MIR_Swirruo_Blerroe
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	MIR_Aorrio_Eaw={
+		name="Aorrio Eaw"
+
+		advisor={
+			slot = army_chief
+			idea_token = MIR_Aorrio_Eaw
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	MIR_Cla_Oaz={
+		name="Cla Oaz"
+
+		advisor={
+			slot = army_chief
+			idea_token = MIR_Cla_Oaz
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	MIR_Otrird_Bluold={
+		name="Otrird Bluold"
+
+		advisor={
+			slot = army_chief
+			idea_token = MIR_Otrird_Bluold
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	MIR_Tralkao_Uov={
+		name="Tralkao Uov"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MIR_Tralkao_Uov
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	MIR_Swe_Udrald={
+		name="Swe Udrald"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MIR_Swe_Udrald
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	MIR_Uil_Oez={
+		name="Uil Oez"
+
+		advisor={
+			slot = air_chief
+			idea_token = MIR_Uil_Oez
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	MIR_Eblark_Uiw={
+		name="Eblark Uiw"
+
+		advisor={
+			slot = air_chief
+			idea_token = MIR_Eblark_Uiw
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	MIR_Tralkao_Itrurd={
+		name="Tralkao Itrurd"
+
+		advisor={
+			slot = high_command
+			idea_token = MIR_Tralkao_Itrurd
+				traits = {	army_logistics_1 	}
+		}
+
+	}
+	MIR_Uswald_Oalkea={
+		name="Uswald Oalkea"
+
+		advisor={
+			slot = high_command
+			idea_token = MIR_Uswald_Oalkea
+				traits = {	army_CombinedArms_2 	}
+		}
+
+	}
+	MIR_Oav_Oay={
+		name="Oav Oay"
+
+		advisor={
+			slot = high_command
+			idea_token = MIR_Oav_Oay
+				traits = {	navy_screen_1 	}
+		}
+
+	}
+	MIR_Dralkui_Oalkea={
+		name="Dralkui Oalkea"
+
+		advisor={
+			slot = high_command
+			idea_token = MIR_Dralkui_Oalkea
+				traits = {	navy_capital_ship_2 	}
+		}
+
+	}
+	MIR_Dribwoa_Swu={
+		name="Dribwoa Swu"
+
+		advisor={
+			slot = high_command
+			idea_token = MIR_Dribwoa_Swu
+				traits = {	air_air_combat_training_1 	}
+		}
+
+	}
+	MIR_Ablirt_Swa={
+		name="Ablirt Swa"
+
+		advisor={
+			slot = high_command
+			idea_token = MIR_Ablirt_Swa
+				traits = {	army_CombinedArms_2 	}
+		}
+
+	}
+	MIR_Uil_Bluold={
+		name="Uil Bluold"
+
+		
+		country_leader={
+			ideology=nazism
+			traits = { the_young_magnate  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MIR_Cluard_Uibwuo={
+		name="Cluard Uibwuo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MIR_Cluard_Uibwuo
+				traits = {	autokrator 	}
+		}
+
+	}
+	MIR_Truosk_Uaj={
+		name="Truosk Uaj"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MIR_Truosk_Uaj
+				traits = {	polemarch 	}
+		}
+
+	}
+	MIR_Clourd_Bliccio={
+		name="Clourd Bliccio"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MIR_Clourd_Bliccio
+				traits = {	spirit_of_genghis 	}
+		}
+
+	}
+	MIR_Swourt_Drerlio={
+		name="Swourt Drerlio"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MIR_Swourt_Drerlio
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	MIR_Eblild_Ourrio={
+		name="Eblild Ourrio"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MIR_Eblild_Ourrio
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	MIR_Dre_Uov={
+		name="Dre Uov"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MIR_Dre_Uov
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	MIR_Dreark_Idrork={
+		name="Dreark Idrork"
+
+		advisor={
+			slot = army_chief
+			idea_token = MIR_Dreark_Idrork
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	MIR_Oav_Uaccau={
+		name="Oav Uaccau"
+
+		advisor={
+			slot = army_chief
+			idea_token = MIR_Oav_Uaccau
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	MIR_Truosk_Aobwau={
+		name="Truosk Aobwau"
+
+		advisor={
+			slot = army_chief
+			idea_token = MIR_Truosk_Aobwau
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	MIR_Tru_Uov={
+		name="Tru Uov"
+
+		advisor={
+			slot = army_chief
+			idea_token = MIR_Tru_Uov
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	MIR_Eac_Ble={
+		name="Eac Ble"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MIR_Eac_Ble
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	MIR_Uil_Uaf={
+		name="Uil Uaf"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MIR_Uil_Uaf
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	MIR_Truosk_Aurluo={
+		name="Truosk Aurluo"
+
+		advisor={
+			slot = air_chief
+			idea_token = MIR_Truosk_Aurluo
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	MIR_Dre_Swubwoa={
+		name="Dre Swubwoa"
+
+		advisor={
+			slot = air_chief
+			idea_token = MIR_Dre_Swubwoa
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	MIR_Aorrio_Truald={
+		name="Aorrio Truald"
+
+		advisor={
+			slot = high_command
+			idea_token = MIR_Aorrio_Truald
+				traits = {	army_concealment_1 	}
+		}
+
+	}
+	MIR_Truosk_Swibwea={
+		name="Truosk Swibwea"
+
+		advisor={
+			slot = high_command
+			idea_token = MIR_Truosk_Swibwea
+				traits = {	army_concealment_2 	}
+		}
+
+	}
+	MIR_Trourt_Cliort={
+		name="Trourt Cliort"
+
+		advisor={
+			slot = high_command
+			idea_token = MIR_Trourt_Cliort
+				traits = {	army_infantry_2 	}
+		}
+
+	}
+	MIR_Eblild_Etresk={
+		name="Eblild Etresk"
+
+		advisor={
+			slot = high_command
+			idea_token = MIR_Eblild_Etresk
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	MIR_Otrird_Uirlui={
+		name="Otrird Uirlui"
+
+		advisor={
+			slot = high_command
+			idea_token = MIR_Otrird_Uirlui
+				traits = {	navy_amphibious_assault_2 	}
+		}
+
+	}
+	MIR_Blirroa_Troart={
+		name="Blirroa Troart"
+
+		advisor={
+			slot = high_command
+			idea_token = MIR_Blirroa_Troart
+				traits = {	navy_screen_2 	}
+		}
+
+	}
+	MIR_Trourt_Auw={
+		name="Trourt Auw"
+
+		
+		country_leader={
+			ideology=anarchist_communism
+			traits = { infirm  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MIR_Utrerd_Out={
+		name="Utrerd Out"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MIR_Utrerd_Out
+				traits = {	polemarch 	}
+		}
+
+	}
+	MIR_Cle_Swubwoa={
+		name="Cle Swubwoa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MIR_Cle_Swubwoa
+				traits = {	infirm 	}
+		}
+
+	}
+	MIR_Tro_Bli={
+		name="Tro Bli"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MIR_Tro_Bli
+				traits = {	political_dancer 	}
+		}
+
+	}
+	MIR_Dreald_Blo={
+		name="Dreald Blo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MIR_Dreald_Blo
+				traits = {	political_dancer 	}
+		}
+
+	}
+	MIR_Trobwua_Auw={
+		name="Trobwua Auw"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MIR_Trobwua_Auw
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	MIR_Dralkui_Uov={
+		name="Dralkui Uov"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MIR_Dralkui_Uov
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	MIR_Adrord_Uirlui={
+		name="Adrord Uirlui"
+
+		advisor={
+			slot = army_chief
+			idea_token = MIR_Adrord_Uirlui
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	MIR_Utrerd_Bloccui={
+		name="Utrerd Bloccui"
+
+		advisor={
+			slot = army_chief
+			idea_token = MIR_Utrerd_Bloccui
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	MIR_Swirruo_Iobwoa={
+		name="Swirruo Iobwoa"
+
+		advisor={
+			slot = army_chief
+			idea_token = MIR_Swirruo_Iobwoa
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	MIR_Aun_Uaccau={
+		name="Aun Uaccau"
+
+		advisor={
+			slot = army_chief
+			idea_token = MIR_Aun_Uaccau
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	MIR_Tri_Uij={
+		name="Tri Uij"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MIR_Tri_Uij
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	MIR_Clorruo_Eswask={
+		name="Clorruo Eswask"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MIR_Clorruo_Eswask
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	MIR_Drerlua_Cliort={
+		name="Drerlua Cliort"
+
+		advisor={
+			slot = air_chief
+			idea_token = MIR_Drerlua_Cliort
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	MIR_Utrerd_Druart={
+		name="Utrerd Druart"
+
+		advisor={
+			slot = air_chief
+			idea_token = MIR_Utrerd_Druart
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	MIR_Oah_Bluold={
+		name="Oah Bluold"
+
+		advisor={
+			slot = high_command
+			idea_token = MIR_Oah_Bluold
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	MIR_Ublusk_Out={
+		name="Ublusk Out"
+
+		advisor={
+			slot = high_command
+			idea_token = MIR_Ublusk_Out
+				traits = {	army_concealment_2 	}
+		}
+
+	}
+	MIR_Eclurd_Cloark={
+		name="Eclurd Cloark"
+
+		advisor={
+			slot = high_command
+			idea_token = MIR_Eclurd_Cloark
+				traits = {	army_logistics_1 	}
+		}
+
+	}
+	MIR_Swuccau_Uaf={
+		name="Swuccau Uaf"
+
+		advisor={
+			slot = high_command
+			idea_token = MIR_Swuccau_Uaf
+				traits = {	air_air_combat_training_1 	}
+		}
+
+	}
+	MIR_Eclurd_Bloccui={
+		name="Eclurd Bloccui"
+
+		advisor={
+			slot = high_command
+			idea_token = MIR_Eclurd_Bloccui
+				traits = {	navy_capital_ship_2 	}
+		}
+
+	}
+	MIR_Swuark_Bluold={
+		name="Swuark Bluold"
+
+		advisor={
+			slot = high_command
+			idea_token = MIR_Swuark_Bluold
+				traits = {	army_armored_1 	}
+		}
+
+	}
+	MIR_Clurlui_Atruld={
+		name="Clurlui Atruld"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { liberal_democratic_paragon  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MIR_Aoccea_Uiw={
+		name="Aoccea Uiw"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MIR_Aoccea_Uiw
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	MIR_Tre_Oaj={
+		name="Tre Oaj"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MIR_Tre_Oaj
+				traits = {	rearmer 	}
+		}
+
+	}
+	MIR_Adrord_Blo={
+		name="Adrord Blo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MIR_Adrord_Blo
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	MIR_Clourd_Ablild={
+		name="Clourd Ablild"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MIR_Clourd_Ablild
+				traits = {	first_lady 	}
+		}
+
+	}
+	MIR_Clorruo_Drelkua={
+		name="Clorruo Drelkua"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MIR_Clorruo_Drelkua
+				traits = {	rearmer 	}
+		}
+
+	}
+	MIR_Oub_Oeccua={
+		name="Oub Oeccua"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MIR_Oub_Oeccua
+				traits = {	the_banker 	}
+		}
+
+	}
+	MIR_Aoccea_Druart={
+		name="Aoccea Druart"
+
+		advisor={
+			slot = army_chief
+			idea_token = MIR_Aoccea_Druart
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	MIR_Iolkuo_Bli={
+		name="Iolkuo Bli"
+
+		advisor={
+			slot = army_chief
+			idea_token = MIR_Iolkuo_Bli
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	MIR_Trourt_Troart={
+		name="Trourt Troart"
+
+		advisor={
+			slot = army_chief
+			idea_token = MIR_Trourt_Troart
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	MIR_Iblord_Dra={
+		name="Iblord Dra"
+
+		advisor={
+			slot = army_chief
+			idea_token = MIR_Iblord_Dra
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	MIR_Sweccui_Etrerd={
+		name="Sweccui Etrerd"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MIR_Sweccui_Etrerd
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	MIR_Ealkuo_Uaf={
+		name="Ealkuo Uaf"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MIR_Ealkuo_Uaf
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	MIR_Drurlio_Swulkuo={
+		name="Drurlio Swulkuo"
+
+		advisor={
+			slot = air_chief
+			idea_token = MIR_Drurlio_Swulkuo
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	MIR_Swuccau_Aobwau={
+		name="Swuccau Aobwau"
+
+		advisor={
+			slot = air_chief
+			idea_token = MIR_Swuccau_Aobwau
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	MIR_Swirruo_Dra={
+		name="Swirruo Dra"
+
+		advisor={
+			slot = high_command
+			idea_token = MIR_Swirruo_Dra
+				traits = {	army_regrouping_2 	}
+		}
+
+	}
+	MIR_Ioccao_Drelkua={
+		name="Ioccao Drelkua"
+
+		advisor={
+			slot = high_command
+			idea_token = MIR_Ioccao_Drelkua
+				traits = {	navy_screen_2 	}
+		}
+
+	}
+	MIR_Droark_Uorlea={
+		name="Droark Uorlea"
+
+		advisor={
+			slot = high_command
+			idea_token = MIR_Droark_Uorlea
+				traits = {	army_CombinedArms_2 	}
+		}
+
+	}
+	MIR_Otrird_Iblisk={
+		name="Otrird Iblisk"
+
+		advisor={
+			slot = high_command
+			idea_token = MIR_Otrird_Iblisk
+				traits = {	air_bomber_interception_1 	}
+		}
+
+	}
+	MIR_Droark_Trorloa={
+		name="Droark Trorloa"
+
+		advisor={
+			slot = high_command
+			idea_token = MIR_Droark_Trorloa
+				traits = {	army_armored_1 	}
+		}
+
+	}
+	MIR_Dreask_Ble={
+		name="Dreask Ble"
+
+		advisor={
+			slot = high_command
+			idea_token = MIR_Dreask_Ble
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	MIR_Adrerd_Drirloa={
+		name="Adrerd Drirloa"
+
+		advisor={
+			slot = theorist
+			idea_token = MIR_Adrerd_Drirloa
+				traits = {	military_theorist 	}
+		}
+
+	}
+	MIR_Swuark_Trarruo={
+		name="Swuark Trarruo"
+
+		advisor={
+			slot = theorist
+			idea_token = MIR_Swuark_Trarruo
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	MIR_Clu_Clauld={
+		name="Clu Clauld"
+
+		advisor={
+			slot = theorist
+			idea_token = MIR_Clu_Clauld
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
 }

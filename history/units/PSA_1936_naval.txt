@@ -1,0 +1,27 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "President Academy Fleet"			
+		naval_base = 473
+		task_force = {
+			name = "President Academy Fleet"
+			location = 473
+			
+						ship = { name = "Stild" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PSA version_name = "Cheld Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

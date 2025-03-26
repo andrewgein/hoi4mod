@@ -1,0 +1,37 @@
+
+state={
+	id=157
+	name="STATE_157"
+	manpower = 9614887
+	
+	state_category = rural
+	resources={
+		aluminium=0
+		chromium=0
+		oil=1
+		rubber=0
+		steel=14
+		tungsten=0
+	}
+
+	history={
+		victory_points = { 384 8}
+		victory_points = { 385 20}
+		
+		owner = PSA
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 3
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = PSA
+	}
+
+	provinces={
+		384 385 
+	}
+	local_supplies=0.0 
+}

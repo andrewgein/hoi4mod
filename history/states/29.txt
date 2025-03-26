@@ -1,0 +1,36 @@
+
+state={
+	id=29
+	name="STATE_29"
+	manpower = 5672078
+	
+	state_category = rural
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=7
+		tungsten=0
+	}
+
+	history={
+		victory_points = { 80 17}
+		
+		owner = MGO
+		buildings = {
+			infrastructure = 2
+			air_base = 8
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = MGO
+	}
+
+	provinces={
+		80 
+	}
+	local_supplies=0.0 
+}

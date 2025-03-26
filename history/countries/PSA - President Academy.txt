@@ -1,0 +1,280 @@
+capital = 35
+
+oob = "PSA_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "PSA_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "PSA_1936_nsb"
+}
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	infantry_weapons= 1
+	support_weapons= 1
+	tech_trucks= 1
+	tech_support= 1
+	gw_artillery= 1
+	armored_car1= 1
+	tech_engineers= 1
+	tech_recon= 1
+	tech_maintenance_company= 1
+	interwar_antiair= 1
+	interwar_antitank= 1
+	interwar_artillery= 1
+	basic_machine_tools= 1
+	construction1= 1
+	
+}
+
+### ARMOR ###
+### Vanilla Techs ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		basic_light_tank = 1
+		
+	}
+}
+### NSB Techs ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		basic_light_tank_chassis = 1
+		engine_tech_1 = 1
+		armor_tech_1 = 1
+		
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	
+
+}
+
+
+### AIRFORCE ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "PSA_1936_air_bba"
+		set_technology = {
+			
+		}
+
+	else = {
+		set_air_oob = "PSA_1936_air_legacy"
+		set_technology = {
+			
+		}
+	}
+}
+
+
+### NAVY ###
+######### Vanilla #########
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+	early_destroyer = 1
+	
+	}
+	set_naval_oob = "PSA_1936_naval"
+}
+
+### Ship Variants ###
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Variants ###
+			create_equipment_variant = {
+			name = "Cheld Class"
+			type = destroyer_1
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+
+}
+
+
+######### MTG #########
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+	basic_battery = 1
+	early_ship_hull_light = 1
+	sonar = 1
+	
+	}
+	set_naval_oob = "PSA_1936_naval_mtg"
+}
+
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		create_equipment_variant = {
+			name = "Cheld Class"
+			type = ship_hull_light_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = empty
+				mid_1_custom_slot = empty
+				rear_1_custom_slot = empty
+			}
+		}
+
+	}
+
+
+recruit_character = PSA_Umiu_Ibiu
+recruit_character = PSA_Ung_Blembio
+recruit_character = PSA_Azii_Blusheu
+recruit_character = PSA_Iiss_Phult
+recruit_character = PSA_Uviu_Ibleang
+recruit_character = PSA_Stund_Shittau
+recruit_character = PSA_Ung_Chult
+recruit_character = PSA_Oss_Uphiuss
+recruit_character = PSA_Phimbiu_Upheang
+recruit_character = PSA_Echeolt_Uphiuss
+recruit_character = PSA_Eung_Blembio
+recruit_character = PSA_Blushio_Shind
+recruit_character = PSA_Chind_Abliung
+recruit_character = PSA_Apheong_Isheong
+recruit_character = PSA_Usteuss_Ibleoss
+recruit_character = PSA_Eheo_Shind
+recruit_character = PSA_Chumbio_Blusheu
+recruit_character = PSA_Esteuss_Ibleang
+recruit_character = PSA_Ald_Abliung
+recruit_character = PSA_Uviu_Blaltii
+recruit_character = PSA_Chuld_Phult
+recruit_character = PSA_Iild_Iess
+recruit_character = PSA_Stalt_Bluttiu
+recruit_character = PSA_Igie_Ushioss
+recruit_character = PSA_Esteuss_Blaltii
+recruit_character = PSA_Phing_Stembea
+recruit_character = PSA_Eng_Shess
+recruit_character = PSA_Iild_Staltou
+recruit_character = PSA_Ezii_Stilt
+recruit_character = PSA_Apheong_Phiss
+recruit_character = PSA_Shalt_Stembea
+recruit_character = PSA_Pheltiu_Ching
+recruit_character = PSA_Stund_Eyio
+recruit_character = PSA_Eng_Stettou
+recruit_character = PSA_Sholtau_Stilt
+recruit_character = PSA_Ujea_Chotteo
+recruit_character = PSA_Chishui_Stuld
+recruit_character = PSA_Chumbio_End
+recruit_character = PSA_Iung_Iond
+recruit_character = PSA_Phend_Ugio
+recruit_character = PSA_Shuld_Chotteo
+recruit_character = PSA_Usteuss_Phult
+recruit_character = PSA_Stoss_End
+recruit_character = PSA_Uyeo_Stettou
+recruit_character = PSA_And_Iong
+recruit_character = PSA_Iiss_Shess
+recruit_character = PSA_Chesheu_Bluttiu
+recruit_character = PSA_Chung_Acheolt
+recruit_character = PSA_Chittou_Shondiu
+recruit_character = PSA_Stalt_Iciu
+recruit_character = PSA_Ound_Iciu
+recruit_character = PSA_Apheong_Bliltii
+recruit_character = PSA_Sholtau_Ushioss
+recruit_character = PSA_Chishui_Ashealt
+recruit_character = PSA_Upeo_Phang
+recruit_character = PSA_Uyeo_Isii
+recruit_character = PSA_Phold_Phiss
+recruit_character = PSA_Ableang_Iciu
+recruit_character = PSA_Azii_Blaltii
+recruit_character = PSA_Uphiund_Chult
+recruit_character = PSA_Blong_Ebea
+recruit_character = PSA_Estiend_End
+recruit_character = PSA_And_Phiss
+recruit_character = PSA_Chind_Shild
+recruit_character = PSA_Und_Ubluing
+recruit_character = PSA_Iend_Uss
+recruit_character = PSA_Shalt_Phang
+recruit_character = PSA_Azii_Iess
+recruit_character = PSA_Sholtau_Blaltii
+recruit_character = PSA_Esteuss_Sting
+recruit_character = PSA_Phend_End
+recruit_character = PSA_Und_Blusheu
+recruit_character = PSA_Phimbiu_Shess
+recruit_character = PSA_Euld_Ibleang
+recruit_character = PSA_Uviu_Stoltiu
+recruit_character = PSA_Istiond_Ching
+recruit_character = PSA_Uyeo_Blusheu
+recruit_character = PSA_Phalt_Obou
+recruit_character = PSA_Chittio_Ustiolt
+recruit_character = PSA_Shultea_Blaltii
+recruit_character = PSA_Bleng_Isheong
+recruit_character = PSA_Phold_Shondiu
+recruit_character = PSA_Ableang_Upheand
+recruit_character = PSA_Chung_End
+recruit_character = PSA_Euld_Phiss
+recruit_character = PSA_Azii_Stuld
+recruit_character = PSA_Ess_Ibiu
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_research_slots = 4
+set_convoys = 1
+set_stability = 79
+set_war_support = 71
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1913.1.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 27
+	fascism = 23
+	communism = 28
+	neutrality = 22
+}
+
+
+#create_faction = templateFactionName
+#add_to_faction = PSA
+

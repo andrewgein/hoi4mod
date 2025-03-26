@@ -1,0 +1,38 @@
+
+state={
+	id=169
+	name="STATE_169"
+	manpower = 11152699
+	
+	state_category = town
+	resources={
+		aluminium=5
+		chromium=0
+		oil=18
+		rubber=0
+		steel=8
+		tungsten=0
+	}
+
+	history={
+		victory_points = { 410 16}
+		victory_points = { 411 14}
+		victory_points = { 412 5}
+		
+		owner = MIR
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 1
+			industrial_complex = 3
+			
+			
+		}
+		add_core_of = MIR
+	}
+
+	provinces={
+		410 411 412 
+	}
+	local_supplies=0.0 
+}

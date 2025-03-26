@@ -1,0 +1,41 @@
+
+state={
+	id=115
+	name="STATE_115"
+	manpower = 17523065
+	
+	state_category = city
+	resources={
+		aluminium=0
+		chromium=22
+		oil=3
+		rubber=0
+		steel=12
+		tungsten=1
+	}
+
+	history={
+		victory_points = { 279 16}
+		victory_points = { 281 31}
+		victory_points = { 282 7}
+		
+		owner = MGO
+		buildings = {
+			infrastructure = 2
+			air_base = 7
+			arms_factory = 2
+			industrial_complex = 3
+			dockyard = 1
+			279 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = MGO
+	}
+
+	provinces={
+		279 280 281 282 
+	}
+	local_supplies=0.0 
+}

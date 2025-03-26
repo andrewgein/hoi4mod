@@ -1,0 +1,36 @@
+
+state={
+	id=94
+	name="STATE_94"
+	manpower = 9584587
+	
+	state_category = town
+	resources={
+		aluminium=12
+		chromium=3
+		oil=0
+		rubber=0
+		steel=10
+		tungsten=0
+	}
+
+	history={
+		victory_points = { 235 30}
+		
+		owner = MGO
+		buildings = {
+			infrastructure = 2
+			air_base = 4
+			arms_factory = 2
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = MGO
+	}
+
+	provinces={
+		235 
+	}
+	local_supplies=0.0 
+}

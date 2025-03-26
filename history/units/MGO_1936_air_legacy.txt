@@ -1,0 +1,284 @@
+air_wings = {
+		18 = { 								
+		fighter_equipment_0 = { owner = "MGO" amount = 50 version_name = "Fuale Mk 0" }
+
+	}
+	21 = { 								
+		CAS_equipment_0 = { owner = "MGO" amount = 50 version_name = "Daeke Mk 1" }
+fighter_equipment_0 = { owner = "MGO" amount = 50 version_name = "Fuale Mk 0" }
+fighter_equipment_0 = { owner = "MGO" amount = 50 version_name = "Fuale Mk 0" }
+
+	}
+	12 = { 								
+		CAS_equipment_0 = { owner = "MGO" amount = 50 version_name = "Daeke Mk 1" }
+
+	}
+	8 = { 								
+		tac_bomber_equipment_0 = { owner = "MGO" amount = 50 version_name = "Ox Mk 2" }
+
+	}
+	4 = { 								
+		fighter_equipment_0 = { owner = "MGO" amount = 50 version_name = "Fuale Mk 0" }
+nav_bomber_equipment_0 = { owner = "MGO" amount = 50 version_name = "Mouqu Mk 2" }
+
+	}
+	13 = { 								
+		CAS_equipment_0 = { owner = "MGO" amount = 50 version_name = "Daeke Mk 1" }
+
+	}
+	26 = { 								
+		CAS_equipment_0 = { owner = "MGO" amount = 50 version_name = "Daeke Mk 1" }
+
+	}
+	44 = { 								
+		CAS_equipment_0 = { owner = "MGO" amount = 50 version_name = "Daeke Mk 1" }
+
+	}
+	38 = { 								
+		fighter_equipment_0 = { owner = "MGO" amount = 50 version_name = "Fuale Mk 0" }
+nav_bomber_equipment_0 = { owner = "MGO" amount = 50 version_name = "Mouqu Mk 2" }
+
+	}
+	29 = { 								
+		CAS_equipment_0 = { owner = "MGO" amount = 50 version_name = "Daeke Mk 1" }
+fighter_equipment_0 = { owner = "MGO" amount = 50 version_name = "Fuale Mk 0" }
+
+	}
+	42 = { 								
+		tac_bomber_equipment_0 = { owner = "MGO" amount = 50 version_name = "Ox Mk 2" }
+
+	}
+	39 = { 								
+		fighter_equipment_0 = { owner = "MGO" amount = 50 version_name = "Fuale Mk 0" }
+nav_bomber_equipment_0 = { owner = "MGO" amount = 50 version_name = "Mouqu Mk 2" }
+
+	}
+	40 = { 								
+		fighter_equipment_0 = { owner = "MGO" amount = 50 version_name = "Fuale Mk 0" }
+
+	}
+	30 = { 								
+		tac_bomber_equipment_0 = { owner = "MGO" amount = 50 version_name = "Ox Mk 2" }
+
+	}
+	43 = { 								
+		tac_bomber_equipment_0 = { owner = "MGO" amount = 50 version_name = "Ox Mk 2" }
+
+	}
+	37 = { 								
+		tac_bomber_equipment_0 = { owner = "MGO" amount = 50 version_name = "Ox Mk 2" }
+
+	}
+	53 = { 								
+		fighter_equipment_0 = { owner = "MGO" amount = 50 version_name = "Fuale Mk 0" }
+tac_bomber_equipment_0 = { owner = "MGO" amount = 50 version_name = "Ox Mk 2" }
+
+	}
+	56 = { 								
+		CAS_equipment_0 = { owner = "MGO" amount = 50 version_name = "Daeke Mk 1" }
+CAS_equipment_0 = { owner = "MGO" amount = 50 version_name = "Daeke Mk 1" }
+fighter_equipment_0 = { owner = "MGO" amount = 50 version_name = "Fuale Mk 0" }
+
+	}
+	58 = { 								
+		CAS_equipment_0 = { owner = "MGO" amount = 50 version_name = "Daeke Mk 1" }
+
+	}
+	59 = { 								
+		CAS_equipment_0 = { owner = "MGO" amount = 50 version_name = "Daeke Mk 1" }
+CAS_equipment_0 = { owner = "MGO" amount = 50 version_name = "Daeke Mk 1" }
+fighter_equipment_0 = { owner = "MGO" amount = 50 version_name = "Fuale Mk 0" }
+
+	}
+	81 = { 								
+		tac_bomber_equipment_0 = { owner = "MGO" amount = 50 version_name = "Ox Mk 2" }
+
+	}
+	76 = { 								
+		nav_bomber_equipment_0 = { owner = "MGO" amount = 50 version_name = "Mouqu Mk 2" }
+tac_bomber_equipment_0 = { owner = "MGO" amount = 50 version_name = "Ox Mk 2" }
+
+	}
+	100 = { 								
+		fighter_equipment_0 = { owner = "MGO" amount = 50 version_name = "Fuale Mk 0" }
+
+	}
+	92 = { 								
+		CAS_equipment_0 = { owner = "MGO" amount = 50 version_name = "Daeke Mk 1" }
+nav_bomber_equipment_0 = { owner = "MGO" amount = 50 version_name = "Mouqu Mk 2" }
+nav_bomber_equipment_0 = { owner = "MGO" amount = 50 version_name = "Mouqu Mk 2" }
+
+	}
+	93 = { 								
+		nav_bomber_equipment_0 = { owner = "MGO" amount = 50 version_name = "Mouqu Mk 2" }
+tac_bomber_equipment_0 = { owner = "MGO" amount = 50 version_name = "Ox Mk 2" }
+
+	}
+	96 = { 								
+		nav_bomber_equipment_0 = { owner = "MGO" amount = 50 version_name = "Mouqu Mk 2" }
+
+	}
+	94 = { 								
+		CAS_equipment_0 = { owner = "MGO" amount = 50 version_name = "Daeke Mk 1" }
+
+	}
+	101 = { 								
+		CAS_equipment_0 = { owner = "MGO" amount = 50 version_name = "Daeke Mk 1" }
+nav_bomber_equipment_0 = { owner = "MGO" amount = 50 version_name = "Mouqu Mk 2" }
+tac_bomber_equipment_0 = { owner = "MGO" amount = 50 version_name = "Ox Mk 2" }
+
+	}
+	108 = { 								
+		tac_bomber_equipment_0 = { owner = "MGO" amount = 50 version_name = "Ox Mk 2" }
+
+	}
+	116 = { 								
+		nav_bomber_equipment_0 = { owner = "MGO" amount = 50 version_name = "Mouqu Mk 2" }
+
+	}
+	117 = { 								
+		nav_bomber_equipment_0 = { owner = "MGO" amount = 50 version_name = "Mouqu Mk 2" }
+
+	}
+	119 = { 								
+		fighter_equipment_0 = { owner = "MGO" amount = 50 version_name = "Fuale Mk 0" }
+
+	}
+	109 = { 								
+		fighter_equipment_0 = { owner = "MGO" amount = 50 version_name = "Fuale Mk 0" }
+tac_bomber_equipment_0 = { owner = "MGO" amount = 50 version_name = "Ox Mk 2" }
+
+	}
+	106 = { 								
+		nav_bomber_equipment_0 = { owner = "MGO" amount = 50 version_name = "Mouqu Mk 2" }
+
+	}
+	121 = { 								
+		CAS_equipment_0 = { owner = "MGO" amount = 50 version_name = "Daeke Mk 1" }
+tac_bomber_equipment_0 = { owner = "MGO" amount = 50 version_name = "Ox Mk 2" }
+
+	}
+	132 = { 								
+		nav_bomber_equipment_0 = { owner = "MGO" amount = 50 version_name = "Mouqu Mk 2" }
+
+	}
+	145 = { 								
+		CAS_equipment_0 = { owner = "MGO" amount = 50 version_name = "Daeke Mk 1" }
+
+	}
+	142 = { 								
+		CAS_equipment_0 = { owner = "MGO" amount = 50 version_name = "Daeke Mk 1" }
+nav_bomber_equipment_0 = { owner = "MGO" amount = 50 version_name = "Mouqu Mk 2" }
+tac_bomber_equipment_0 = { owner = "MGO" amount = 50 version_name = "Ox Mk 2" }
+
+	}
+	134 = { 								
+		fighter_equipment_0 = { owner = "MGO" amount = 50 version_name = "Fuale Mk 0" }
+
+	}
+	171 = { 								
+		fighter_equipment_0 = { owner = "MGO" amount = 50 version_name = "Fuale Mk 0" }
+nav_bomber_equipment_0 = { owner = "MGO" amount = 50 version_name = "Mouqu Mk 2" }
+
+	}
+	172 = { 								
+		fighter_equipment_0 = { owner = "MGO" amount = 50 version_name = "Fuale Mk 0" }
+tac_bomber_equipment_0 = { owner = "MGO" amount = 50 version_name = "Ox Mk 2" }
+
+	}
+	166 = { 								
+		nav_bomber_equipment_0 = { owner = "MGO" amount = 50 version_name = "Mouqu Mk 2" }
+
+	}
+	156 = { 								
+		fighter_equipment_0 = { owner = "MGO" amount = 50 version_name = "Fuale Mk 0" }
+nav_bomber_equipment_0 = { owner = "MGO" amount = 50 version_name = "Mouqu Mk 2" }
+tac_bomber_equipment_0 = { owner = "MGO" amount = 50 version_name = "Ox Mk 2" }
+
+	}
+	163 = { 								
+		tac_bomber_equipment_0 = { owner = "MGO" amount = 50 version_name = "Ox Mk 2" }
+
+	}
+	161 = { 								
+		nav_bomber_equipment_0 = { owner = "MGO" amount = 50 version_name = "Mouqu Mk 2" }
+
+	}
+	170 = { 								
+		fighter_equipment_0 = { owner = "MGO" amount = 50 version_name = "Fuale Mk 0" }
+nav_bomber_equipment_0 = { owner = "MGO" amount = 50 version_name = "Mouqu Mk 2" }
+tac_bomber_equipment_0 = { owner = "MGO" amount = 50 version_name = "Ox Mk 2" }
+
+	}
+	164 = { 								
+		fighter_equipment_0 = { owner = "MGO" amount = 50 version_name = "Fuale Mk 0" }
+nav_bomber_equipment_0 = { owner = "MGO" amount = 50 version_name = "Mouqu Mk 2" }
+
+	}
+	182 = { 								
+		fighter_equipment_0 = { owner = "MGO" amount = 50 version_name = "Fuale Mk 0" }
+tac_bomber_equipment_0 = { owner = "MGO" amount = 50 version_name = "Ox Mk 2" }
+
+	}
+	175 = { 								
+		CAS_equipment_0 = { owner = "MGO" amount = 50 version_name = "Daeke Mk 1" }
+nav_bomber_equipment_0 = { owner = "MGO" amount = 50 version_name = "Mouqu Mk 2" }
+nav_bomber_equipment_0 = { owner = "MGO" amount = 50 version_name = "Mouqu Mk 2" }
+tac_bomber_equipment_0 = { owner = "MGO" amount = 50 version_name = "Ox Mk 2" }
+tac_bomber_equipment_0 = { owner = "MGO" amount = 50 version_name = "Ox Mk 2" }
+
+	}
+	184 = { 								
+		CAS_equipment_0 = { owner = "MGO" amount = 50 version_name = "Daeke Mk 1" }
+fighter_equipment_0 = { owner = "MGO" amount = 50 version_name = "Fuale Mk 0" }
+
+	}
+	189 = { 								
+		tac_bomber_equipment_0 = { owner = "MGO" amount = 50 version_name = "Ox Mk 2" }
+
+	}
+	207 = { 								
+		CAS_equipment_0 = { owner = "MGO" amount = 50 version_name = "Daeke Mk 1" }
+fighter_equipment_0 = { owner = "MGO" amount = 50 version_name = "Fuale Mk 0" }
+nav_bomber_equipment_0 = { owner = "MGO" amount = 50 version_name = "Mouqu Mk 2" }
+
+	}
+	208 = { 								
+		CAS_equipment_0 = { owner = "MGO" amount = 50 version_name = "Daeke Mk 1" }
+CAS_equipment_0 = { owner = "MGO" amount = 50 version_name = "Daeke Mk 1" }
+tac_bomber_equipment_0 = { owner = "MGO" amount = 50 version_name = "Ox Mk 2" }
+
+	}
+	198 = { 								
+		nav_bomber_equipment_0 = { owner = "MGO" amount = 50 version_name = "Mouqu Mk 2" }
+
+	}
+	222 = { 								
+		fighter_equipment_0 = { owner = "MGO" amount = 50 version_name = "Fuale Mk 0" }
+
+	}
+	233 = { 								
+		nav_bomber_equipment_0 = { owner = "MGO" amount = 50 version_name = "Mouqu Mk 2" }
+
+	}
+	234 = { 								
+		tac_bomber_equipment_0 = { owner = "MGO" amount = 50 version_name = "Ox Mk 2" }
+
+	}
+	236 = { 								
+		tac_bomber_equipment_0 = { owner = "MGO" amount = 50 version_name = "Ox Mk 2" }
+
+	}
+	225 = { 								
+		fighter_equipment_0 = { owner = "MGO" amount = 50 version_name = "Fuale Mk 0" }
+
+	}
+	224 = { 								
+		CAS_equipment_0 = { owner = "MGO" amount = 50 version_name = "Daeke Mk 1" }
+CAS_equipment_0 = { owner = "MGO" amount = 50 version_name = "Daeke Mk 1" }
+CAS_equipment_0 = { owner = "MGO" amount = 50 version_name = "Daeke Mk 1" }
+
+	}
+
+
+}

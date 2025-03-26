@@ -1,0 +1,38 @@
+
+state={
+	id=74
+	name="STATE_74"
+	manpower = 15241484
+	
+	state_category = large_town
+	resources={
+		aluminium=1
+		chromium=0
+		oil=0
+		rubber=0
+		steel=13
+		tungsten=0
+	}
+
+	history={
+		victory_points = { 190 29}
+		victory_points = { 191 4}
+		victory_points = { 192 14}
+		
+		owner = MIR
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 3
+			industrial_complex = 2
+			
+			
+		}
+		add_core_of = MIR
+	}
+
+	provinces={
+		190 191 192 
+	}
+	local_supplies=0.0 
+}

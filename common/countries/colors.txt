@@ -1,9 +1,5 @@
 #reload countrycolors
 
-MIR = {
-	color = rgb { 116 194 239 }
-	color_ui = rgb { 63 106 171}
-}
 GER = {
 	color = HSV { 0.1 0.15 0.4 }
 	color_ui = rgb { 138 155 116 }
@@ -1118,3 +1114,15 @@ KUR = {
 
 
 
+MIR = {
+	color = rgb { 116 194 239 }
+	color_ui = rgb { 63 106 171}
+}
+PSA = {
+	color = rgb { 255 0 0 }
+	color_ui = rgb { 255 0 0 }
+}
+MGO = {
+	color = rgb { 255 255 255 }
+	color_ui = rgb { 255 255 255 }
+}

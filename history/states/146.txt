@@ -1,0 +1,36 @@
+
+state={
+	id=146
+	name="STATE_146"
+	manpower = 5575137
+	
+	state_category = rural
+	resources={
+		aluminium=2
+		chromium=10
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+	}
+
+	history={
+		victory_points = { 359 17}
+		
+		owner = PSA
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 2
+			
+			
+		}
+		add_core_of = PSA
+	}
+
+	provinces={
+		359 
+	}
+	local_supplies=0.0 
+}

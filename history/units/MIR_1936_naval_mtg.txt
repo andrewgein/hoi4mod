@@ -1,0 +1,39 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "MIREA Fleet"			
+		naval_base = 520
+		task_force = {
+			name = "MIREA Fleet"
+			location = 520
+			
+						ship = { name = "Uirrua" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = MIR version_name = "Cloerd Class" } }	}
+			ship = { name = "Swi" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MIR version_name = "Swelkao Class" } }	}
+			ship = { name = "Aos" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = MIR version_name = "Bli Class" } }	}
+			ship = { name = "Swaosk" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MIR version_name = "Swelkao Class" } }	}
+			ship = { name = "Adrirt" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = MIR version_name = "Bli Class" } }	}
+			ship = { name = "Itrerk" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MIR version_name = "Swelkao Class" } }	}
+			ship = { name = "Tra" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MIR version_name = "Swelkao Class" } }	}
+			ship = { name = "Blurlio" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = MIR version_name = "Bli Class" } }	}
+			ship = { name = "Uclald" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MIR version_name = "Swelkao Class" } }	}
+			ship = { name = "Oabwui" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = MIR version_name = "Bli Class" } }	}
+			ship = { name = "Uclald 2" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = MIR version_name = "Bli Class" } }	}
+			ship = { name = "Blerlui" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = MIR version_name = "Bli Class" } }	}
+			ship = { name = "Ablird" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = MIR version_name = "Bli Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

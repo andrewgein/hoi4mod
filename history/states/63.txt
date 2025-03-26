@@ -1,0 +1,40 @@
+
+state={
+	id=63
+	name="STATE_63"
+	manpower = 6428984
+	
+	state_category = rural
+	resources={
+		aluminium=0
+		chromium=3
+		oil=2
+		rubber=0
+		steel=4
+		tungsten=0
+	}
+
+	history={
+		victory_points = { 166 3}
+		victory_points = { 167 14}
+		
+		owner = PSA
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 1
+			dockyard = 1
+			167 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = PSA
+	}
+
+	provinces={
+		166 167 
+	}
+	local_supplies=0.0 
+}

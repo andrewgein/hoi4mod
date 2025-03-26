@@ -1,0 +1,36 @@
+
+state={
+	id=222
+	name="STATE_222"
+	manpower = 6218437
+	
+	state_category = rural
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=6
+		steel=0
+		tungsten=0
+	}
+
+	history={
+		victory_points = { 532 22}
+		
+		owner = MIR
+		buildings = {
+			infrastructure = 2
+			air_base = 2
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = MIR
+	}
+
+	provinces={
+		532 
+	}
+	local_supplies=0.0 
+}

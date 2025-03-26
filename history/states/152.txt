@@ -1,0 +1,38 @@
+
+state={
+	id=152
+	name="STATE_152"
+	manpower = 9451838
+	
+	state_category = town
+	resources={
+		aluminium=0
+		chromium=11
+		oil=0
+		rubber=0
+		steel=12
+		tungsten=2
+	}
+
+	history={
+		victory_points = { 373 13}
+		victory_points = { 374 2}
+		victory_points = { 375 13}
+		
+		owner = PSA
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 3
+			
+			
+		}
+		add_core_of = PSA
+	}
+
+	provinces={
+		373 374 375 
+	}
+	local_supplies=0.0 
+}

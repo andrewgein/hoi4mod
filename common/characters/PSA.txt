@@ -1,0 +1,880 @@
+characters = {
+	PSA_Umiu_Ibiu={
+		name="Umiu Ibiu"
+
+		
+		country_leader={
+			ideology=centrism
+			traits = { headstrong  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	PSA_Ung_Blembio={
+		name="Ung Blembio"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PSA_Ung_Blembio
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	PSA_Azii_Blusheu={
+		name="Azii Blusheu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PSA_Azii_Blusheu
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	PSA_Iiss_Phult={
+		name="Iiss Phult"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PSA_Iiss_Phult
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	PSA_Uviu_Ibleang={
+		name="Uviu Ibleang"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PSA_Uviu_Ibleang
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	PSA_Stund_Shittau={
+		name="Stund Shittau"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PSA_Stund_Shittau
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	PSA_Ung_Chult={
+		name="Ung Chult"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PSA_Ung_Chult
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	PSA_Oss_Uphiuss={
+		name="Oss Uphiuss"
+
+		advisor={
+			slot = army_chief
+			idea_token = PSA_Oss_Uphiuss
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	PSA_Phimbiu_Upheang={
+		name="Phimbiu Upheang"
+
+		advisor={
+			slot = army_chief
+			idea_token = PSA_Phimbiu_Upheang
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	PSA_Echeolt_Uphiuss={
+		name="Echeolt Uphiuss"
+
+		advisor={
+			slot = army_chief
+			idea_token = PSA_Echeolt_Uphiuss
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	PSA_Eung_Blembio={
+		name="Eung Blembio"
+
+		advisor={
+			slot = army_chief
+			idea_token = PSA_Eung_Blembio
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	PSA_Blushio_Shind={
+		name="Blushio Shind"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PSA_Blushio_Shind
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	PSA_Chind_Abliung={
+		name="Chind Abliung"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PSA_Chind_Abliung
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	PSA_Apheong_Isheong={
+		name="Apheong Isheong"
+
+		advisor={
+			slot = air_chief
+			idea_token = PSA_Apheong_Isheong
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	PSA_Usteuss_Ibleoss={
+		name="Usteuss Ibleoss"
+
+		advisor={
+			slot = air_chief
+			idea_token = PSA_Usteuss_Ibleoss
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	PSA_Eheo_Shind={
+		name="Eheo Shind"
+
+		advisor={
+			slot = high_command
+			idea_token = PSA_Eheo_Shind
+				traits = {	air_air_superiority_2 	}
+		}
+
+	}
+	PSA_Chumbio_Blusheu={
+		name="Chumbio Blusheu"
+
+		advisor={
+			slot = high_command
+			idea_token = PSA_Chumbio_Blusheu
+				traits = {	air_air_combat_training_1 	}
+		}
+
+	}
+	PSA_Esteuss_Ibleang={
+		name="Esteuss Ibleang"
+
+		advisor={
+			slot = high_command
+			idea_token = PSA_Esteuss_Ibleang
+				traits = {	army_CombinedArms_2 	}
+		}
+
+	}
+	PSA_Ald_Abliung={
+		name="Ald Abliung"
+
+		advisor={
+			slot = high_command
+			idea_token = PSA_Ald_Abliung
+				traits = {	army_entrenchment_2 	}
+		}
+
+	}
+	PSA_Uviu_Blaltii={
+		name="Uviu Blaltii"
+
+		advisor={
+			slot = high_command
+			idea_token = PSA_Uviu_Blaltii
+				traits = {	army_radio_intelligence_2 	}
+		}
+
+	}
+	PSA_Chuld_Phult={
+		name="Chuld Phult"
+
+		advisor={
+			slot = high_command
+			idea_token = PSA_Chuld_Phult
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	PSA_Iild_Iess={
+		name="Iild Iess"
+
+		
+		country_leader={
+			ideology=nazism
+			traits = { autokrator  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	PSA_Stalt_Bluttiu={
+		name="Stalt Bluttiu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PSA_Stalt_Bluttiu
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	PSA_Igie_Ushioss={
+		name="Igie Ushioss"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PSA_Igie_Ushioss
+				traits = {	infirm 	}
+		}
+
+	}
+	PSA_Esteuss_Blaltii={
+		name="Esteuss Blaltii"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PSA_Esteuss_Blaltii
+				traits = {	inexperienced_imperialist 	}
+		}
+
+	}
+	PSA_Phing_Stembea={
+		name="Phing Stembea"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PSA_Phing_Stembea
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	PSA_Eng_Shess={
+		name="Eng Shess"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PSA_Eng_Shess
+				traits = {	collaborator_king 	}
+		}
+
+	}
+	PSA_Iild_Staltou={
+		name="Iild Staltou"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PSA_Iild_Staltou
+				traits = {	collaborator_king 	}
+		}
+
+	}
+	PSA_Ezii_Stilt={
+		name="Ezii Stilt"
+
+		advisor={
+			slot = army_chief
+			idea_token = PSA_Ezii_Stilt
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	PSA_Apheong_Phiss={
+		name="Apheong Phiss"
+
+		advisor={
+			slot = army_chief
+			idea_token = PSA_Apheong_Phiss
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	PSA_Shalt_Stembea={
+		name="Shalt Stembea"
+
+		advisor={
+			slot = army_chief
+			idea_token = PSA_Shalt_Stembea
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	PSA_Pheltiu_Ching={
+		name="Pheltiu Ching"
+
+		advisor={
+			slot = army_chief
+			idea_token = PSA_Pheltiu_Ching
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	PSA_Stund_Eyio={
+		name="Stund Eyio"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PSA_Stund_Eyio
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	PSA_Eng_Stettou={
+		name="Eng Stettou"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PSA_Eng_Stettou
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	PSA_Sholtau_Stilt={
+		name="Sholtau Stilt"
+
+		advisor={
+			slot = air_chief
+			idea_token = PSA_Sholtau_Stilt
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	PSA_Ujea_Chotteo={
+		name="Ujea Chotteo"
+
+		advisor={
+			slot = air_chief
+			idea_token = PSA_Ujea_Chotteo
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	PSA_Chishui_Stuld={
+		name="Chishui Stuld"
+
+		advisor={
+			slot = high_command
+			idea_token = PSA_Chishui_Stuld
+				traits = {	army_regrouping_2 	}
+		}
+
+	}
+	PSA_Chumbio_End={
+		name="Chumbio End"
+
+		advisor={
+			slot = high_command
+			idea_token = PSA_Chumbio_End
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	PSA_Iung_Iond={
+		name="Iung Iond"
+
+		advisor={
+			slot = high_command
+			idea_token = PSA_Iung_Iond
+				traits = {	air_tactical_bombing_1 	}
+		}
+
+	}
+	PSA_Phend_Ugio={
+		name="Phend Ugio"
+
+		advisor={
+			slot = high_command
+			idea_token = PSA_Phend_Ugio
+				traits = {	navy_naval_air_defense_1 	}
+		}
+
+	}
+	PSA_Shuld_Chotteo={
+		name="Shuld Chotteo"
+
+		advisor={
+			slot = high_command
+			idea_token = PSA_Shuld_Chotteo
+				traits = {	army_logistics_1 	}
+		}
+
+	}
+	PSA_Usteuss_Phult={
+		name="Usteuss Phult"
+
+		advisor={
+			slot = high_command
+			idea_token = PSA_Usteuss_Phult
+				traits = {	navy_capital_ship_1 	}
+		}
+
+	}
+	PSA_Stoss_End={
+		name="Stoss End"
+
+		
+		country_leader={
+			ideology=marxism
+			traits = { political_dancer  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	PSA_Uyeo_Stettou={
+		name="Uyeo Stettou"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PSA_Uyeo_Stettou
+				traits = {	political_dancer 	}
+		}
+
+	}
+	PSA_And_Iong={
+		name="And Iong"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PSA_And_Iong
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	PSA_Iiss_Shess={
+		name="Iiss Shess"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PSA_Iiss_Shess
+				traits = {	infirm 	}
+		}
+
+	}
+	PSA_Chesheu_Bluttiu={
+		name="Chesheu Bluttiu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PSA_Chesheu_Bluttiu
+				traits = {	infirm 	}
+		}
+
+	}
+	PSA_Chung_Acheolt={
+		name="Chung Acheolt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PSA_Chung_Acheolt
+				traits = {	infirm 	}
+		}
+
+	}
+	PSA_Chittou_Shondiu={
+		name="Chittou Shondiu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PSA_Chittou_Shondiu
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	PSA_Stalt_Iciu={
+		name="Stalt Iciu"
+
+		advisor={
+			slot = army_chief
+			idea_token = PSA_Stalt_Iciu
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	PSA_Ound_Iciu={
+		name="Ound Iciu"
+
+		advisor={
+			slot = army_chief
+			idea_token = PSA_Ound_Iciu
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	PSA_Apheong_Bliltii={
+		name="Apheong Bliltii"
+
+		advisor={
+			slot = army_chief
+			idea_token = PSA_Apheong_Bliltii
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	PSA_Sholtau_Ushioss={
+		name="Sholtau Ushioss"
+
+		advisor={
+			slot = army_chief
+			idea_token = PSA_Sholtau_Ushioss
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	PSA_Chishui_Ashealt={
+		name="Chishui Ashealt"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PSA_Chishui_Ashealt
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	PSA_Upeo_Phang={
+		name="Upeo Phang"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PSA_Upeo_Phang
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	PSA_Uyeo_Isii={
+		name="Uyeo Isii"
+
+		advisor={
+			slot = air_chief
+			idea_token = PSA_Uyeo_Isii
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	PSA_Phold_Phiss={
+		name="Phold Phiss"
+
+		advisor={
+			slot = air_chief
+			idea_token = PSA_Phold_Phiss
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	PSA_Ableang_Iciu={
+		name="Ableang Iciu"
+
+		advisor={
+			slot = high_command
+			idea_token = PSA_Ableang_Iciu
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	PSA_Azii_Blaltii={
+		name="Azii Blaltii"
+
+		advisor={
+			slot = high_command
+			idea_token = PSA_Azii_Blaltii
+				traits = {	navy_fleet_logistics_1 	}
+		}
+
+	}
+	PSA_Uphiund_Chult={
+		name="Uphiund Chult"
+
+		advisor={
+			slot = high_command
+			idea_token = PSA_Uphiund_Chult
+				traits = {	air_air_combat_training_2 	}
+		}
+
+	}
+	PSA_Blong_Ebea={
+		name="Blong Ebea"
+
+		advisor={
+			slot = high_command
+			idea_token = PSA_Blong_Ebea
+				traits = {	army_concealment_2 	}
+		}
+
+	}
+	PSA_Estiend_End={
+		name="Estiend End"
+
+		advisor={
+			slot = high_command
+			idea_token = PSA_Estiend_End
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	PSA_And_Phiss={
+		name="And Phiss"
+
+		advisor={
+			slot = high_command
+			idea_token = PSA_And_Phiss
+				traits = {	air_strategic_bombing_1 	}
+		}
+
+	}
+	PSA_Chind_Shild={
+		name="Chind Shild"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { conservative_grandee  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	PSA_Und_Ubluing={
+		name="Und Ubluing"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PSA_Und_Ubluing
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	PSA_Iend_Uss={
+		name="Iend Uss"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PSA_Iend_Uss
+				traits = {	the_banker 	}
+		}
+
+	}
+	PSA_Shalt_Phang={
+		name="Shalt Phang"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PSA_Shalt_Phang
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	PSA_Azii_Iess={
+		name="Azii Iess"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PSA_Azii_Iess
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	PSA_Sholtau_Blaltii={
+		name="Sholtau Blaltii"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PSA_Sholtau_Blaltii
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	PSA_Esteuss_Sting={
+		name="Esteuss Sting"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PSA_Esteuss_Sting
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	PSA_Phend_End={
+		name="Phend End"
+
+		advisor={
+			slot = army_chief
+			idea_token = PSA_Phend_End
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	PSA_Und_Blusheu={
+		name="Und Blusheu"
+
+		advisor={
+			slot = army_chief
+			idea_token = PSA_Und_Blusheu
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	PSA_Phimbiu_Shess={
+		name="Phimbiu Shess"
+
+		advisor={
+			slot = army_chief
+			idea_token = PSA_Phimbiu_Shess
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	PSA_Euld_Ibleang={
+		name="Euld Ibleang"
+
+		advisor={
+			slot = army_chief
+			idea_token = PSA_Euld_Ibleang
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	PSA_Uviu_Stoltiu={
+		name="Uviu Stoltiu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PSA_Uviu_Stoltiu
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	PSA_Istiond_Ching={
+		name="Istiond Ching"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PSA_Istiond_Ching
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	PSA_Uyeo_Blusheu={
+		name="Uyeo Blusheu"
+
+		advisor={
+			slot = air_chief
+			idea_token = PSA_Uyeo_Blusheu
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	PSA_Phalt_Obou={
+		name="Phalt Obou"
+
+		advisor={
+			slot = air_chief
+			idea_token = PSA_Phalt_Obou
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	PSA_Chittio_Ustiolt={
+		name="Chittio Ustiolt"
+
+		advisor={
+			slot = high_command
+			idea_token = PSA_Chittio_Ustiolt
+				traits = {	army_logistics_1 	}
+		}
+
+	}
+	PSA_Shultea_Blaltii={
+		name="Shultea Blaltii"
+
+		advisor={
+			slot = high_command
+			idea_token = PSA_Shultea_Blaltii
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	PSA_Bleng_Isheong={
+		name="Bleng Isheong"
+
+		advisor={
+			slot = high_command
+			idea_token = PSA_Bleng_Isheong
+				traits = {	air_close_air_support_1 	}
+		}
+
+	}
+	PSA_Phold_Shondiu={
+		name="Phold Shondiu"
+
+		advisor={
+			slot = high_command
+			idea_token = PSA_Phold_Shondiu
+				traits = {	army_CombinedArms_2 	}
+		}
+
+	}
+	PSA_Ableang_Upheand={
+		name="Ableang Upheand"
+
+		advisor={
+			slot = high_command
+			idea_token = PSA_Ableang_Upheand
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	PSA_Chung_End={
+		name="Chung End"
+
+		advisor={
+			slot = high_command
+			idea_token = PSA_Chung_End
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	PSA_Euld_Phiss={
+		name="Euld Phiss"
+
+		advisor={
+			slot = theorist
+			idea_token = PSA_Euld_Phiss
+				traits = {	military_theorist 	}
+		}
+
+	}
+	PSA_Azii_Stuld={
+		name="Azii Stuld"
+
+		advisor={
+			slot = theorist
+			idea_token = PSA_Azii_Stuld
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	PSA_Ess_Ibiu={
+		name="Ess Ibiu"
+
+		advisor={
+			slot = theorist
+			idea_token = PSA_Ess_Ibiu
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

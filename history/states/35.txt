@@ -1,0 +1,38 @@
+
+state={
+	id=35
+	name="STATE_35"
+	manpower = 35190593
+	
+	state_category = megalopolis
+	resources={
+		aluminium=14
+		chromium=0
+		oil=0
+		rubber=38
+		steel=8
+		tungsten=2
+	}
+
+	history={
+		victory_points = { 93 29}
+		victory_points = { 94 4}
+		victory_points = { 96 93}
+		
+		owner = PSA
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 9
+			industrial_complex = 3
+			
+			
+		}
+		add_core_of = PSA
+	}
+
+	provinces={
+		93 94 95 96 97 
+	}
+	local_supplies=0.0 
+}

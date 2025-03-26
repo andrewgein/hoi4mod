@@ -1,0 +1,37 @@
+
+state={
+	id=174
+	name="STATE_174"
+	manpower = 7985368
+	
+	state_category = rural
+	resources={
+		aluminium=1
+		chromium=0
+		oil=0
+		rubber=0
+		steel=10
+		tungsten=3
+	}
+
+	history={
+		victory_points = { 426 17}
+		victory_points = { 427 6}
+		
+		owner = MIR
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 2
+			
+			
+		}
+		add_core_of = MIR
+	}
+
+	provinces={
+		426 427 
+	}
+	local_supplies=0.0 
+}

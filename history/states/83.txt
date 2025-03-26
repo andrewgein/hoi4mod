@@ -1,0 +1,40 @@
+
+state={
+	id=83
+	name="STATE_83"
+	manpower = 23989830
+	
+	state_category = metropolis
+	resources={
+		aluminium=1
+		chromium=0
+		oil=25
+		rubber=34
+		steel=12
+		tungsten=1
+	}
+
+	history={
+		victory_points = { 208 70}
+		victory_points = { 209 12}
+		
+		owner = MGO
+		buildings = {
+			infrastructure = 3
+			air_base = 6
+			arms_factory = 1
+			industrial_complex = 6
+			dockyard = 3
+			209 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = MGO
+	}
+
+	provinces={
+		207 208 209 
+	}
+	local_supplies=0.0 
+}

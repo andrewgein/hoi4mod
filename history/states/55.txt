@@ -1,0 +1,41 @@
+
+state={
+	id=55
+	name="STATE_55"
+	manpower = 33691575
+	
+	state_category = megalopolis
+	resources={
+		aluminium=10
+		chromium=0
+		oil=5
+		rubber=0
+		steel=47
+		tungsten=0
+	}
+
+	history={
+		victory_points = { 142 6}
+		victory_points = { 143 16}
+		victory_points = { 144 15}
+		victory_points = { 146 41}
+		victory_points = { 147 15}
+		victory_points = { 148 15}
+		
+		owner = PSA
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 7
+			industrial_complex = 5
+			
+			
+		}
+		add_core_of = PSA
+	}
+
+	provinces={
+		142 143 144 145 146 147 148 
+	}
+	local_supplies=0.0 
+}

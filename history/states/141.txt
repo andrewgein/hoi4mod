@@ -1,0 +1,39 @@
+
+state={
+	id=141
+	name="STATE_141"
+	manpower = 20845844
+	
+	state_category = city
+	resources={
+		aluminium=1
+		chromium=0
+		oil=0
+		rubber=0
+		steel=10
+		tungsten=0
+	}
+
+	history={
+		victory_points = { 338 23}
+		victory_points = { 339 22}
+		victory_points = { 340 11}
+		victory_points = { 341 8}
+		
+		owner = MIR
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 3
+			industrial_complex = 4
+			
+			
+		}
+		add_core_of = MIR
+	}
+
+	provinces={
+		338 339 340 341 
+	}
+	local_supplies=0.0 
+}

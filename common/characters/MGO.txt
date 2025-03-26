@@ -1,0 +1,880 @@
+characters = {
+	MGO_Ble_Swoult={
+		name="Ble Swoult"
+
+		
+		country_leader={
+			ideology=centrism
+			traits = { exiled  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MGO_Qua_Icluom={
+		name="Qua Icluom"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MGO_Qua_Icluom
+				traits = {	exiled 	}
+		}
+
+	}
+	MGO_Uswout_Miudi={
+		name="Uswout Miudi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MGO_Uswout_Miudi
+				traits = {	headstrong 	}
+		}
+
+	}
+	MGO_Cli_Bloilt={
+		name="Cli Bloilt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MGO_Cli_Bloilt
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	MGO_Iuque_Astaec={
+		name="Iuque Astaec"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MGO_Iuque_Astaec
+				traits = {	humble 	}
+		}
+
+	}
+	MGO_Quuask_Ocluam={
+		name="Quuask Ocluam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MGO_Quuask_Ocluam
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	MGO_Uoccu_Ubloam={
+		name="Uoccu Ubloam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MGO_Uoccu_Ubloam
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	MGO_Quuask_Swoult={
+		name="Quuask Swoult"
+
+		advisor={
+			slot = army_chief
+			idea_token = MGO_Quuask_Swoult
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	MGO_Uk_Tuoqu={
+		name="Uk Tuoqu"
+
+		advisor={
+			slot = army_chief
+			idea_token = MGO_Uk_Tuoqu
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	MGO_Blo_Ocluam={
+		name="Blo Ocluam"
+
+		advisor={
+			slot = army_chief
+			idea_token = MGO_Blo_Ocluam
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	MGO_Ustuar_Baewo={
+		name="Ustuar Baewo"
+
+		advisor={
+			slot = army_chief
+			idea_token = MGO_Ustuar_Baewo
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	MGO_Iqueux_Ibleuy={
+		name="Iqueux Ibleuy"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MGO_Iqueux_Ibleuy
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	MGO_Oy_Cleurd={
+		name="Oy Cleurd"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MGO_Oy_Cleurd
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	MGO_Eumbu_Uz={
+		name="Eumbu Uz"
+
+		advisor={
+			slot = air_chief
+			idea_token = MGO_Eumbu_Uz
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	MGO_Uquaiq_Baewo={
+		name="Uquaiq Baewo"
+
+		advisor={
+			slot = air_chief
+			idea_token = MGO_Uquaiq_Baewo
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	MGO_Uw_Bliosk={
+		name="Uw Bliosk"
+
+		advisor={
+			slot = high_command
+			idea_token = MGO_Uw_Bliosk
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	MGO_Iswaey_Ubloam={
+		name="Iswaey Ubloam"
+
+		advisor={
+			slot = high_command
+			idea_token = MGO_Iswaey_Ubloam
+				traits = {	navy_capital_ship_1 	}
+		}
+
+	}
+	MGO_Oswaid_Iocci={
+		name="Oswaid Iocci"
+
+		advisor={
+			slot = high_command
+			idea_token = MGO_Oswaid_Iocci
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	MGO_Oswaid_Astaec={
+		name="Oswaid Astaec"
+
+		advisor={
+			slot = high_command
+			idea_token = MGO_Oswaid_Astaec
+				traits = {	air_close_air_support_1 	}
+		}
+
+	}
+	MGO_Cliuld_Oquiuh={
+		name="Cliuld Oquiuh"
+
+		advisor={
+			slot = high_command
+			idea_token = MGO_Cliuld_Oquiuh
+				traits = {	air_close_air_support_1 	}
+		}
+
+	}
+	MGO_Staisk_Ox={
+		name="Staisk Ox"
+
+		advisor={
+			slot = high_command
+			idea_token = MGO_Staisk_Ox
+				traits = {	air_air_superiority_2 	}
+		}
+
+	}
+	MGO_Uambo_Swiold={
+		name="Uambo Swiold"
+
+		
+		country_leader={
+			ideology=falangism
+			traits = { the_young_magnate  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MGO_Iuque_Ibleuy={
+		name="Iuque Ibleuy"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MGO_Iuque_Ibleuy
+				traits = {	spirit_of_genghis 	}
+		}
+
+	}
+	MGO_Woiwu_Swaild={
+		name="Woiwu Swaild"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MGO_Woiwu_Swaild
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	MGO_Ble_Ew={
+		name="Ble Ew"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MGO_Ble_Ew
+				traits = {	autokrator 	}
+		}
+
+	}
+	MGO_Uswoar_Ig={
+		name="Uswoar Ig"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MGO_Uswoar_Ig
+				traits = {	basileus 	}
+		}
+
+	}
+	MGO_Staiss_Miudi={
+		name="Staiss Miudi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MGO_Staiss_Miudi
+				traits = {	generallissimo 	}
+		}
+
+	}
+	MGO_Og_Cleurd={
+		name="Og Cleurd"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MGO_Og_Cleurd
+				traits = {	spirit_of_genghis 	}
+		}
+
+	}
+	MGO_Iy_Ceuyu={
+		name="Iy Ceuyu"
+
+		advisor={
+			slot = army_chief
+			idea_token = MGO_Iy_Ceuyu
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	MGO_Sweuld_Miudi={
+		name="Sweuld Miudi"
+
+		advisor={
+			slot = army_chief
+			idea_token = MGO_Sweuld_Miudi
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	MGO_Suatu_Tuoqu={
+		name="Suatu Tuoqu"
+
+		advisor={
+			slot = army_chief
+			idea_token = MGO_Suatu_Tuoqu
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	MGO_Istual_Bliosk={
+		name="Istual Bliosk"
+
+		advisor={
+			slot = army_chief
+			idea_token = MGO_Istual_Bliosk
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	MGO_Uoccu_Aessu={
+		name="Uoccu Aessu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MGO_Uoccu_Aessu
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	MGO_Im_Oaqui={
+		name="Im Oaqui"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MGO_Im_Oaqui
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	MGO_Eumbu_Stuord={
+		name="Eumbu Stuord"
+
+		advisor={
+			slot = air_chief
+			idea_token = MGO_Eumbu_Stuord
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	MGO_Uassu_Diolu={
+		name="Uassu Diolu"
+
+		advisor={
+			slot = air_chief
+			idea_token = MGO_Uassu_Diolu
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	MGO_Oacci_Cleusk={
+		name="Oacci Cleusk"
+
+		advisor={
+			slot = high_command
+			idea_token = MGO_Oacci_Cleusk
+				traits = {	army_cavalry_1 	}
+		}
+
+	}
+	MGO_Stuald_Cleurd={
+		name="Stuald Cleurd"
+
+		advisor={
+			slot = high_command
+			idea_token = MGO_Stuald_Cleurd
+				traits = {	air_bomber_interception_1 	}
+		}
+
+	}
+	MGO_Meugi_Aimbo={
+		name="Meugi Aimbo"
+
+		advisor={
+			slot = high_command
+			idea_token = MGO_Meugi_Aimbo
+				traits = {	army_concealment_2 	}
+		}
+
+	}
+	MGO_Uobwu_Ew={
+		name="Uobwu Ew"
+
+		advisor={
+			slot = high_command
+			idea_token = MGO_Uobwu_Ew
+				traits = {	army_regrouping_2 	}
+		}
+
+	}
+	MGO_Qaivu_Douso={
+		name="Qaivu Douso"
+
+		advisor={
+			slot = high_command
+			idea_token = MGO_Qaivu_Douso
+				traits = {	navy_screen_2 	}
+		}
+
+	}
+	MGO_Ob_Bluoss={
+		name="Ob Bluoss"
+
+		advisor={
+			slot = high_command
+			idea_token = MGO_Ob_Bluoss
+				traits = {	air_naval_strike_2 	}
+		}
+
+	}
+	MGO_Ble_Iuccu={
+		name="Ble Iuccu"
+
+		
+		country_leader={
+			ideology=stalinism
+			traits = { mastermind_code_cracker  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MGO_Iy_Bluoss={
+		name="Iy Bluoss"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MGO_Iy_Bluoss
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	MGO_Staisk_Bliosk={
+		name="Staisk Bliosk"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MGO_Staisk_Bliosk
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	MGO_Roaxo_Swiold={
+		name="Roaxo Swiold"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MGO_Roaxo_Swiold
+				traits = {	political_dancer 	}
+		}
+
+	}
+	MGO_Ic_Ucluow={
+		name="Ic Ucluow"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MGO_Ic_Ucluow
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	MGO_Eb_Ibleuy={
+		name="Eb Ibleuy"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MGO_Eb_Ibleuy
+				traits = {	political_dancer 	}
+		}
+
+	}
+	MGO_Stuald_Iuccu={
+		name="Stuald Iuccu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MGO_Stuald_Iuccu
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	MGO_Uw_Koicu={
+		name="Uw Koicu"
+
+		advisor={
+			slot = army_chief
+			idea_token = MGO_Uw_Koicu
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	MGO_Istual_Uz={
+		name="Istual Uz"
+
+		advisor={
+			slot = army_chief
+			idea_token = MGO_Istual_Uz
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	MGO_Roaxo_Cliosk={
+		name="Roaxo Cliosk"
+
+		advisor={
+			slot = army_chief
+			idea_token = MGO_Roaxo_Cliosk
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	MGO_Aw_Iuccu={
+		name="Aw Iuccu"
+
+		advisor={
+			slot = army_chief
+			idea_token = MGO_Aw_Iuccu
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	MGO_Ble_Oswaeb={
+		name="Ble Oswaeb"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MGO_Ble_Oswaeb
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	MGO_Iswaey_Liucu={
+		name="Iswaey Liucu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MGO_Iswaey_Liucu
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	MGO_Quoild_Ub={
+		name="Quoild Ub"
+
+		advisor={
+			slot = air_chief
+			idea_token = MGO_Quoild_Ub
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	MGO_Iswaey_Liuqe={
+		name="Iswaey Liuqe"
+
+		advisor={
+			slot = air_chief
+			idea_token = MGO_Iswaey_Liuqe
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	MGO_Sweuss_Swoult={
+		name="Sweuss Swoult"
+
+		advisor={
+			slot = high_command
+			idea_token = MGO_Sweuss_Swoult
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	MGO_Uv_Oaquo={
+		name="Uv Oaquo"
+
+		advisor={
+			slot = high_command
+			idea_token = MGO_Uv_Oaquo
+				traits = {	navy_submarine_1 	}
+		}
+
+	}
+	MGO_Clo_Aesso={
+		name="Clo Aesso"
+
+		advisor={
+			slot = high_command
+			idea_token = MGO_Clo_Aesso
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	MGO_Uobwi_Ebleuk={
+		name="Uobwi Ebleuk"
+
+		advisor={
+			slot = high_command
+			idea_token = MGO_Uobwi_Ebleuk
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	MGO_Uambo_Ubloam={
+		name="Uambo Ubloam"
+
+		advisor={
+			slot = high_command
+			idea_token = MGO_Uambo_Ubloam
+				traits = {	army_cavalry_2 	}
+		}
+
+	}
+	MGO_Uquaiq_Liuqe={
+		name="Uquaiq Liuqe"
+
+		advisor={
+			slot = high_command
+			idea_token = MGO_Uquaiq_Liuqe
+				traits = {	navy_fleet_logistics_1 	}
+		}
+
+	}
+	MGO_Oy_Cleusk={
+		name="Oy Cleusk"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { conservative_grandee  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MGO_Quoild_Ew={
+		name="Quoild Ew"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MGO_Quoild_Ew
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	MGO_Ucliof_Swaesk={
+		name="Ucliof Swaesk"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MGO_Ucliof_Swaesk
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	MGO_Oimbi_Ostiuq={
+		name="Oimbi Ostiuq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MGO_Oimbi_Ostiuq
+				traits = {	british_bulldog 	}
+		}
+
+	}
+	MGO_Blouss_Icleul={
+		name="Blouss Icleul"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MGO_Blouss_Icleul
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	MGO_Dioqo_At={
+		name="Dioqo At"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MGO_Dioqo_At
+				traits = {	british_bulldog 	}
+		}
+
+	}
+	MGO_Uswoar_Astaec={
+		name="Uswoar Astaec"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MGO_Uswoar_Astaec
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	MGO_Oy_Deumo={
+		name="Oy Deumo"
+
+		advisor={
+			slot = army_chief
+			idea_token = MGO_Oy_Deumo
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	MGO_Qua_Qaixi={
+		name="Qua Qaixi"
+
+		advisor={
+			slot = army_chief
+			idea_token = MGO_Qua_Qaixi
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	MGO_Es_Oaqui={
+		name="Es Oaqui"
+
+		advisor={
+			slot = army_chief
+			idea_token = MGO_Es_Oaqui
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	MGO_Acluax_Qaixi={
+		name="Acluax Qaixi"
+
+		advisor={
+			slot = army_chief
+			idea_token = MGO_Acluax_Qaixi
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	MGO_Aclaim_Oaquo={
+		name="Aclaim Oaquo"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MGO_Aclaim_Oaquo
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	MGO_Quo_Ebleuk={
+		name="Quo Ebleuk"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MGO_Quo_Ebleuk
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	MGO_Aissu_Abloac={
+		name="Aissu Abloac"
+
+		advisor={
+			slot = air_chief
+			idea_token = MGO_Aissu_Abloac
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	MGO_Og_Cleusk={
+		name="Og Cleusk"
+
+		advisor={
+			slot = air_chief
+			idea_token = MGO_Og_Cleusk
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	MGO_Uobwi_Sta={
+		name="Uobwi Sta"
+
+		advisor={
+			slot = high_command
+			idea_token = MGO_Uobwi_Sta
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	MGO_Eumbu_Eubwo={
+		name="Eumbu Eubwo"
+
+		advisor={
+			slot = high_command
+			idea_token = MGO_Eumbu_Eubwo
+				traits = {	army_logistics_2 	}
+		}
+
+	}
+	MGO_Og_Deumo={
+		name="Og Deumo"
+
+		advisor={
+			slot = high_command
+			idea_token = MGO_Og_Deumo
+				traits = {	air_bomber_interception_2 	}
+		}
+
+	}
+	MGO_Ic_Ceuyu={
+		name="Ic Ceuyu"
+
+		advisor={
+			slot = high_command
+			idea_token = MGO_Ic_Ceuyu
+				traits = {	army_logistics_2 	}
+		}
+
+	}
+	MGO_Quoqi_Ocluam={
+		name="Quoqi Ocluam"
+
+		advisor={
+			slot = high_command
+			idea_token = MGO_Quoqi_Ocluam
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	MGO_Uobwu_Deumo={
+		name="Uobwu Deumo"
+
+		advisor={
+			slot = high_command
+			idea_token = MGO_Uobwu_Deumo
+				traits = {	air_bomber_interception_1 	}
+		}
+
+	}
+	MGO_Ucliof_Cloiss={
+		name="Ucliof Cloiss"
+
+		advisor={
+			slot = theorist
+			idea_token = MGO_Ucliof_Cloiss
+				traits = {	military_theorist 	}
+		}
+
+	}
+	MGO_Oacci_Iocci={
+		name="Oacci Iocci"
+
+		advisor={
+			slot = theorist
+			idea_token = MGO_Oacci_Iocci
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	MGO_Uw_Baewo={
+		name="Uw Baewo"
+
+		advisor={
+			slot = theorist
+			idea_token = MGO_Uw_Baewo
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

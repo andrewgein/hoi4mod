@@ -1,0 +1,36 @@
+
+state={
+	id=38
+	name="STATE_38"
+	manpower = 7467255
+	
+	state_category = town
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=3
+	}
+
+	history={
+		victory_points = { 104 26}
+		
+		owner = MGO
+		buildings = {
+			infrastructure = 2
+			air_base = 4
+			arms_factory = 1
+			industrial_complex = 2
+			
+			
+		}
+		add_core_of = MGO
+	}
+
+	provinces={
+		104 
+	}
+	local_supplies=0.0 
+}

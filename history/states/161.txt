@@ -1,0 +1,37 @@
+
+state={
+	id=161
+	name="STATE_161"
+	manpower = 11748970
+	
+	state_category = town
+	resources={
+		aluminium=0
+		chromium=28
+		oil=0
+		rubber=0
+		steel=14
+		tungsten=1
+	}
+
+	history={
+		victory_points = { 394 29}
+		victory_points = { 395 8}
+		
+		owner = MGO
+		buildings = {
+			infrastructure = 2
+			air_base = 6
+			arms_factory = 2
+			industrial_complex = 2
+			
+			
+		}
+		add_core_of = MGO
+	}
+
+	provinces={
+		394 395 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,40 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "MGIMO Fleet"			
+		naval_base = 422
+		task_force = {
+			name = "MGIMO Fleet"
+			location = 422
+			
+						ship = { name = "Uacci" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = MGO version_name = "Ostiub Class" } }	}
+			ship = { name = "Aessi" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MGO version_name = "Queurd Class" } }	}
+			ship = { name = "Duotu" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = MGO version_name = "Aebwi Class" } }	}
+			ship = { name = "Ziumu" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = MGO version_name = "Aebwi Class" } }	}
+			ship = { name = "Iz" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = MGO version_name = "Aebwi Class" } }	}
+			ship = { name = "Iblouw" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = MGO version_name = "Aebwi Class" } }	}
+			ship = { name = "Staeld" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = MGO version_name = "Aebwi Class" } }	}
+			ship = { name = "Leuki" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = MGO version_name = "Aebwi Class" } }	}
+			ship = { name = "Staeld 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = MGO version_name = "Aebwi Class" } }	}
+			ship = { name = "Ac" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MGO version_name = "Queurd Class" } }	}
+			ship = { name = "Estous" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = MGO version_name = "Aebwi Class" } }	}
+			ship = { name = "Clo" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = MGO version_name = "Aebwi Class" } }	}
+			ship = { name = "Astuam" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MGO version_name = "Queurd Class" } }	}
+			ship = { name = "Ec" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MGO version_name = "Queurd Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

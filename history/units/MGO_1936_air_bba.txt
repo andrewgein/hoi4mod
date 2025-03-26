@@ -1,0 +1,284 @@
+air_wings = {
+		18 = { 								
+		small_plane_airframe_0 = { owner = "MGO" amount = 50 version_name = "Fuale Mk 0" }
+
+	}
+	21 = { 								
+		small_plane_cas_airframe_0 = { owner = "MGO" amount = 50 version_name = "Daeke Mk 1" }
+small_plane_airframe_0 = { owner = "MGO" amount = 50 version_name = "Fuale Mk 0" }
+small_plane_airframe_0 = { owner = "MGO" amount = 50 version_name = "Fuale Mk 0" }
+
+	}
+	12 = { 								
+		small_plane_cas_airframe_0 = { owner = "MGO" amount = 50 version_name = "Daeke Mk 1" }
+
+	}
+	8 = { 								
+		medium_plane_airframe_0 = { owner = "MGO" amount = 50 version_name = "Ox Mk 2" }
+
+	}
+	4 = { 								
+		small_plane_airframe_0 = { owner = "MGO" amount = 50 version_name = "Fuale Mk 0" }
+small_plane_naval_bomber_airframe_0 = { owner = "MGO" amount = 50 version_name = "Mouqu Mk 2" }
+
+	}
+	13 = { 								
+		small_plane_cas_airframe_0 = { owner = "MGO" amount = 50 version_name = "Daeke Mk 1" }
+
+	}
+	26 = { 								
+		small_plane_cas_airframe_0 = { owner = "MGO" amount = 50 version_name = "Daeke Mk 1" }
+
+	}
+	44 = { 								
+		small_plane_cas_airframe_0 = { owner = "MGO" amount = 50 version_name = "Daeke Mk 1" }
+
+	}
+	38 = { 								
+		small_plane_airframe_0 = { owner = "MGO" amount = 50 version_name = "Fuale Mk 0" }
+small_plane_naval_bomber_airframe_0 = { owner = "MGO" amount = 50 version_name = "Mouqu Mk 2" }
+
+	}
+	29 = { 								
+		small_plane_cas_airframe_0 = { owner = "MGO" amount = 50 version_name = "Daeke Mk 1" }
+small_plane_airframe_0 = { owner = "MGO" amount = 50 version_name = "Fuale Mk 0" }
+
+	}
+	42 = { 								
+		medium_plane_airframe_0 = { owner = "MGO" amount = 50 version_name = "Ox Mk 2" }
+
+	}
+	39 = { 								
+		small_plane_airframe_0 = { owner = "MGO" amount = 50 version_name = "Fuale Mk 0" }
+small_plane_naval_bomber_airframe_0 = { owner = "MGO" amount = 50 version_name = "Mouqu Mk 2" }
+
+	}
+	40 = { 								
+		small_plane_airframe_0 = { owner = "MGO" amount = 50 version_name = "Fuale Mk 0" }
+
+	}
+	30 = { 								
+		medium_plane_airframe_0 = { owner = "MGO" amount = 50 version_name = "Ox Mk 2" }
+
+	}
+	43 = { 								
+		medium_plane_airframe_0 = { owner = "MGO" amount = 50 version_name = "Ox Mk 2" }
+
+	}
+	37 = { 								
+		medium_plane_airframe_0 = { owner = "MGO" amount = 50 version_name = "Ox Mk 2" }
+
+	}
+	53 = { 								
+		small_plane_airframe_0 = { owner = "MGO" amount = 50 version_name = "Fuale Mk 0" }
+medium_plane_airframe_0 = { owner = "MGO" amount = 50 version_name = "Ox Mk 2" }
+
+	}
+	56 = { 								
+		small_plane_cas_airframe_0 = { owner = "MGO" amount = 50 version_name = "Daeke Mk 1" }
+small_plane_cas_airframe_0 = { owner = "MGO" amount = 50 version_name = "Daeke Mk 1" }
+small_plane_airframe_0 = { owner = "MGO" amount = 50 version_name = "Fuale Mk 0" }
+
+	}
+	58 = { 								
+		small_plane_cas_airframe_0 = { owner = "MGO" amount = 50 version_name = "Daeke Mk 1" }
+
+	}
+	59 = { 								
+		small_plane_cas_airframe_0 = { owner = "MGO" amount = 50 version_name = "Daeke Mk 1" }
+small_plane_cas_airframe_0 = { owner = "MGO" amount = 50 version_name = "Daeke Mk 1" }
+small_plane_airframe_0 = { owner = "MGO" amount = 50 version_name = "Fuale Mk 0" }
+
+	}
+	81 = { 								
+		medium_plane_airframe_0 = { owner = "MGO" amount = 50 version_name = "Ox Mk 2" }
+
+	}
+	76 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "MGO" amount = 50 version_name = "Mouqu Mk 2" }
+medium_plane_airframe_0 = { owner = "MGO" amount = 50 version_name = "Ox Mk 2" }
+
+	}
+	100 = { 								
+		small_plane_airframe_0 = { owner = "MGO" amount = 50 version_name = "Fuale Mk 0" }
+
+	}
+	92 = { 								
+		small_plane_cas_airframe_0 = { owner = "MGO" amount = 50 version_name = "Daeke Mk 1" }
+small_plane_naval_bomber_airframe_0 = { owner = "MGO" amount = 50 version_name = "Mouqu Mk 2" }
+small_plane_naval_bomber_airframe_0 = { owner = "MGO" amount = 50 version_name = "Mouqu Mk 2" }
+
+	}
+	93 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "MGO" amount = 50 version_name = "Mouqu Mk 2" }
+medium_plane_airframe_0 = { owner = "MGO" amount = 50 version_name = "Ox Mk 2" }
+
+	}
+	96 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "MGO" amount = 50 version_name = "Mouqu Mk 2" }
+
+	}
+	94 = { 								
+		small_plane_cas_airframe_0 = { owner = "MGO" amount = 50 version_name = "Daeke Mk 1" }
+
+	}
+	101 = { 								
+		small_plane_cas_airframe_0 = { owner = "MGO" amount = 50 version_name = "Daeke Mk 1" }
+small_plane_naval_bomber_airframe_0 = { owner = "MGO" amount = 50 version_name = "Mouqu Mk 2" }
+medium_plane_airframe_0 = { owner = "MGO" amount = 50 version_name = "Ox Mk 2" }
+
+	}
+	108 = { 								
+		medium_plane_airframe_0 = { owner = "MGO" amount = 50 version_name = "Ox Mk 2" }
+
+	}
+	116 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "MGO" amount = 50 version_name = "Mouqu Mk 2" }
+
+	}
+	117 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "MGO" amount = 50 version_name = "Mouqu Mk 2" }
+
+	}
+	119 = { 								
+		small_plane_airframe_0 = { owner = "MGO" amount = 50 version_name = "Fuale Mk 0" }
+
+	}
+	109 = { 								
+		small_plane_airframe_0 = { owner = "MGO" amount = 50 version_name = "Fuale Mk 0" }
+medium_plane_airframe_0 = { owner = "MGO" amount = 50 version_name = "Ox Mk 2" }
+
+	}
+	106 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "MGO" amount = 50 version_name = "Mouqu Mk 2" }
+
+	}
+	121 = { 								
+		small_plane_cas_airframe_0 = { owner = "MGO" amount = 50 version_name = "Daeke Mk 1" }
+medium_plane_airframe_0 = { owner = "MGO" amount = 50 version_name = "Ox Mk 2" }
+
+	}
+	132 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "MGO" amount = 50 version_name = "Mouqu Mk 2" }
+
+	}
+	145 = { 								
+		small_plane_cas_airframe_0 = { owner = "MGO" amount = 50 version_name = "Daeke Mk 1" }
+
+	}
+	142 = { 								
+		small_plane_cas_airframe_0 = { owner = "MGO" amount = 50 version_name = "Daeke Mk 1" }
+small_plane_naval_bomber_airframe_0 = { owner = "MGO" amount = 50 version_name = "Mouqu Mk 2" }
+medium_plane_airframe_0 = { owner = "MGO" amount = 50 version_name = "Ox Mk 2" }
+
+	}
+	134 = { 								
+		small_plane_airframe_0 = { owner = "MGO" amount = 50 version_name = "Fuale Mk 0" }
+
+	}
+	171 = { 								
+		small_plane_airframe_0 = { owner = "MGO" amount = 50 version_name = "Fuale Mk 0" }
+small_plane_naval_bomber_airframe_0 = { owner = "MGO" amount = 50 version_name = "Mouqu Mk 2" }
+
+	}
+	172 = { 								
+		small_plane_airframe_0 = { owner = "MGO" amount = 50 version_name = "Fuale Mk 0" }
+medium_plane_airframe_0 = { owner = "MGO" amount = 50 version_name = "Ox Mk 2" }
+
+	}
+	166 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "MGO" amount = 50 version_name = "Mouqu Mk 2" }
+
+	}
+	156 = { 								
+		small_plane_airframe_0 = { owner = "MGO" amount = 50 version_name = "Fuale Mk 0" }
+small_plane_naval_bomber_airframe_0 = { owner = "MGO" amount = 50 version_name = "Mouqu Mk 2" }
+medium_plane_airframe_0 = { owner = "MGO" amount = 50 version_name = "Ox Mk 2" }
+
+	}
+	163 = { 								
+		medium_plane_airframe_0 = { owner = "MGO" amount = 50 version_name = "Ox Mk 2" }
+
+	}
+	161 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "MGO" amount = 50 version_name = "Mouqu Mk 2" }
+
+	}
+	170 = { 								
+		small_plane_airframe_0 = { owner = "MGO" amount = 50 version_name = "Fuale Mk 0" }
+small_plane_naval_bomber_airframe_0 = { owner = "MGO" amount = 50 version_name = "Mouqu Mk 2" }
+medium_plane_airframe_0 = { owner = "MGO" amount = 50 version_name = "Ox Mk 2" }
+
+	}
+	164 = { 								
+		small_plane_airframe_0 = { owner = "MGO" amount = 50 version_name = "Fuale Mk 0" }
+small_plane_naval_bomber_airframe_0 = { owner = "MGO" amount = 50 version_name = "Mouqu Mk 2" }
+
+	}
+	182 = { 								
+		small_plane_airframe_0 = { owner = "MGO" amount = 50 version_name = "Fuale Mk 0" }
+medium_plane_airframe_0 = { owner = "MGO" amount = 50 version_name = "Ox Mk 2" }
+
+	}
+	175 = { 								
+		small_plane_cas_airframe_0 = { owner = "MGO" amount = 50 version_name = "Daeke Mk 1" }
+small_plane_naval_bomber_airframe_0 = { owner = "MGO" amount = 50 version_name = "Mouqu Mk 2" }
+small_plane_naval_bomber_airframe_0 = { owner = "MGO" amount = 50 version_name = "Mouqu Mk 2" }
+medium_plane_airframe_0 = { owner = "MGO" amount = 50 version_name = "Ox Mk 2" }
+medium_plane_airframe_0 = { owner = "MGO" amount = 50 version_name = "Ox Mk 2" }
+
+	}
+	184 = { 								
+		small_plane_cas_airframe_0 = { owner = "MGO" amount = 50 version_name = "Daeke Mk 1" }
+small_plane_airframe_0 = { owner = "MGO" amount = 50 version_name = "Fuale Mk 0" }
+
+	}
+	189 = { 								
+		medium_plane_airframe_0 = { owner = "MGO" amount = 50 version_name = "Ox Mk 2" }
+
+	}
+	207 = { 								
+		small_plane_cas_airframe_0 = { owner = "MGO" amount = 50 version_name = "Daeke Mk 1" }
+small_plane_airframe_0 = { owner = "MGO" amount = 50 version_name = "Fuale Mk 0" }
+small_plane_naval_bomber_airframe_0 = { owner = "MGO" amount = 50 version_name = "Mouqu Mk 2" }
+
+	}
+	208 = { 								
+		small_plane_cas_airframe_0 = { owner = "MGO" amount = 50 version_name = "Daeke Mk 1" }
+small_plane_cas_airframe_0 = { owner = "MGO" amount = 50 version_name = "Daeke Mk 1" }
+medium_plane_airframe_0 = { owner = "MGO" amount = 50 version_name = "Ox Mk 2" }
+
+	}
+	198 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "MGO" amount = 50 version_name = "Mouqu Mk 2" }
+
+	}
+	222 = { 								
+		small_plane_airframe_0 = { owner = "MGO" amount = 50 version_name = "Fuale Mk 0" }
+
+	}
+	233 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "MGO" amount = 50 version_name = "Mouqu Mk 2" }
+
+	}
+	234 = { 								
+		medium_plane_airframe_0 = { owner = "MGO" amount = 50 version_name = "Ox Mk 2" }
+
+	}
+	236 = { 								
+		medium_plane_airframe_0 = { owner = "MGO" amount = 50 version_name = "Ox Mk 2" }
+
+	}
+	225 = { 								
+		small_plane_airframe_0 = { owner = "MGO" amount = 50 version_name = "Fuale Mk 0" }
+
+	}
+	224 = { 								
+		small_plane_cas_airframe_0 = { owner = "MGO" amount = 50 version_name = "Daeke Mk 1" }
+small_plane_cas_airframe_0 = { owner = "MGO" amount = 50 version_name = "Daeke Mk 1" }
+small_plane_cas_airframe_0 = { owner = "MGO" amount = 50 version_name = "Daeke Mk 1" }
+
+	}
+
+
+}

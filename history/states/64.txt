@@ -1,0 +1,38 @@
+
+state={
+	id=64
+	name="STATE_64"
+	manpower = 23869684
+	
+	state_category = metropolis
+	resources={
+		aluminium=0
+		chromium=1
+		oil=0
+		rubber=7
+		steel=2
+		tungsten=14
+	}
+
+	history={
+		victory_points = { 168 25}
+		victory_points = { 169 33}
+		victory_points = { 170 26}
+		
+		owner = MIR
+		buildings = {
+			infrastructure = 3
+			air_base = 10
+			arms_factory = 7
+			industrial_complex = 4
+			
+			
+		}
+		add_core_of = MIR
+	}
+
+	provinces={
+		168 169 170 171 
+	}
+	local_supplies=0.0 
+}

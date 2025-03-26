@@ -1,0 +1,38 @@
+
+state={
+	id=13
+	name="STATE_13"
+	manpower = 26387132
+	
+	state_category = megalopolis
+	resources={
+		aluminium=8
+		chromium=0
+		oil=0
+		rubber=11
+		steel=22
+		tungsten=0
+	}
+
+	history={
+		victory_points = { 37 10}
+		victory_points = { 38 48}
+		victory_points = { 39 35}
+		
+		owner = MIR
+		buildings = {
+			infrastructure = 3
+			air_base = 8
+			arms_factory = 7
+			industrial_complex = 5
+			
+			
+		}
+		add_core_of = MIR
+	}
+
+	provinces={
+		37 38 39 
+	}
+	local_supplies=0.0 
+}

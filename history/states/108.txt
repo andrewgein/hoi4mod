@@ -1,0 +1,38 @@
+
+state={
+	id=108
+	name="STATE_108"
+	manpower = 21581320
+	
+	state_category = metropolis
+	resources={
+		aluminium=0
+		chromium=53
+		oil=2
+		rubber=26
+		steel=18
+		tungsten=5
+	}
+
+	history={
+		victory_points = { 262 1}
+		victory_points = { 263 45}
+		victory_points = { 264 32}
+		
+		owner = MIR
+		buildings = {
+			infrastructure = 3
+			air_base = 10
+			arms_factory = 3
+			industrial_complex = 7
+			
+			
+		}
+		add_core_of = MIR
+	}
+
+	provinces={
+		262 263 264 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,41 @@
+
+state={
+	id=163
+	name="STATE_163"
+	manpower = 13294937
+	
+	state_category = large_town
+	resources={
+		aluminium=0
+		chromium=11
+		oil=0
+		rubber=0
+		steel=2
+		tungsten=1
+	}
+
+	history={
+		victory_points = { 398 11}
+		victory_points = { 399 28}
+		victory_points = { 400 4}
+		
+		owner = MGO
+		buildings = {
+			infrastructure = 2
+			air_base = 3
+			arms_factory = 0
+			industrial_complex = 3
+			dockyard = 2
+			399 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = MGO
+	}
+
+	provinces={
+		398 399 400 
+	}
+	local_supplies=0.0 
+}

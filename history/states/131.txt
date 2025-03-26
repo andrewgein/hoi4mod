@@ -1,0 +1,38 @@
+
+state={
+	id=131
+	name="STATE_131"
+	manpower = 13620562
+	
+	state_category = large_town
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=3
+		tungsten=2
+	}
+
+	history={
+		victory_points = { 318 10}
+		victory_points = { 319 27}
+		victory_points = { 320 6}
+		
+		owner = MGO
+		buildings = {
+			infrastructure = 2
+			air_base = 5
+			arms_factory = 3
+			industrial_complex = 2
+			
+			
+		}
+		add_core_of = MGO
+	}
+
+	provinces={
+		318 319 320 
+	}
+	local_supplies=0.0 
+}

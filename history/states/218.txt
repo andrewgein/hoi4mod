@@ -1,0 +1,36 @@
+
+state={
+	id=218
+	name="STATE_218"
+	manpower = 9669521
+	
+	state_category = town
+	resources={
+		aluminium=26
+		chromium=0
+		oil=0
+		rubber=10
+		steel=12
+		tungsten=0
+	}
+
+	history={
+		victory_points = { 524 35}
+		
+		owner = MIR
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 3
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = MIR
+	}
+
+	provinces={
+		524 
+	}
+	local_supplies=0.0 
+}

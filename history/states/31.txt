@@ -1,0 +1,38 @@
+
+state={
+	id=31
+	name="STATE_31"
+	manpower = 9260560
+	
+	state_category = rural
+	resources={
+		aluminium=1
+		chromium=0
+		oil=0
+		rubber=0
+		steel=20
+		tungsten=2
+	}
+
+	history={
+		victory_points = { 83 6}
+		victory_points = { 84 15}
+		victory_points = { 85 6}
+		
+		owner = MIR
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 1
+			industrial_complex = 2
+			
+			
+		}
+		add_core_of = MIR
+	}
+
+	provinces={
+		83 84 85 
+	}
+	local_supplies=0.0 
+}

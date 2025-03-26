@@ -1,0 +1,3 @@
+MIR = "countries/MIREA.txt"
+PSA = "countries/President Academy.txt"
+MGO = "countries/MGIMO.txt"

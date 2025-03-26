@@ -1,26 +1,378 @@
-capital = 78
+capital = 39
 
-set_research_slots = 4
-set_stability = 0.7
-set_war_support = 0.45
-set_convoys = 30
+oob = "MIR_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "MIR_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "MIR_1936_nsb"
+}
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	infantry_weapons= 1
+	tech_support= 1
+	gw_artillery= 1
+	tech_recon= 1
+	basic_machine_tools= 1
+	
+}
+
+### ARMOR ###
+### Vanilla Techs ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		basic_heavy_tank = 1
+		
+	}
+}
+### NSB Techs ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		basic_heavy_tank_chassis = 1
+		engine_tech_1 = 1
+		armor_tech_1 = 1
+		
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	
+
+}
 
 
-#Starting tech
-set_technology = {}
+### AIRFORCE ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "MIR_1936_air_bba"
+		set_technology = {
+			
+		}
+
+	else = {
+		set_air_oob = "MIR_1936_air_legacy"
+		set_technology = {
+			
+		}
+	}
+}
+
+
+### NAVY ###
+######### Vanilla #########
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+	early_carrier = 1
+	early_destroyer = 1
+	early_heavy_cruiser = 1
+	early_light_cruiser = 1
+	early_submarine = 1
+	
+	}
+	set_naval_oob = "MIR_1936_naval"
+}
+
+### Ship Variants ###
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Variants ###
+			create_equipment_variant = {
+			name = "Swelkao Class"
+			type = destroyer_1
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Bli Class"
+			type = light_cruiser_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_anti_air_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Cloerd Class"
+			type = heavy_cruiser_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_armor_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Uorroa Class"
+			type = carrier_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_engine_upgrade = 1
+				ship_deckspace_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Aow Class"
+			type = submarine_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				sub_torpedo_upgrade = 1
+				sub_engine_upgrade = 1
+				sub_stealth_upgrade = 1
+			}
+		}
+
+}
+
+
+######### MTG #########
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+	basic_battery = 1
+	basic_depth_charges = 1
+	basic_naval_mines = 1
+	basic_torpedo = 1
+	early_ship_hull_carrier = 1
+	early_ship_hull_cruiser = 1
+	early_ship_hull_light = 1
+	early_ship_hull_submarine = 1
+	sonar = 1
+	
+	}
+	set_naval_oob = "MIR_1936_naval_mtg"
+}
+
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		create_equipment_variant = {
+			name = "Swelkao Class"
+			type = ship_hull_light_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = ship_torpedo_1
+				mid_1_custom_slot = ship_mine_layer_1
+				rear_1_custom_slot = ship_depth_charge_1
+			}
+		}
+		create_equipment_variant = {
+			name = "Bli Class"
+			type = ship_hull_cruiser_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_armor_slot = empty
+				fixed_ship_battery_slot = ship_medium_battery_1
+				fixed_ship_engine_slot = cruiser_ship_engine_1
+				fixed_ship_fire_control_system_slot = ship_sonar_1
+				fixed_ship_radar_slot = empty
+				mid_1_custom_slot = empty
+				mid_2_custom_slot = ship_mine_layer_1
+				rear_1_custom_slot = ship_mine_layer_1
+			}
+		}
+		create_equipment_variant = {
+			name = "Cloerd Class"
+			type = ship_hull_cruiser_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_armor_slot = empty
+				fixed_ship_battery_slot = ship_medium_battery_1
+				fixed_ship_engine_slot = cruiser_ship_engine_1
+				fixed_ship_fire_control_system_slot = ship_sonar_1
+				fixed_ship_radar_slot = empty
+				mid_1_custom_slot = ship_torpedo_1
+				mid_2_custom_slot = ship_torpedo_1
+				rear_1_custom_slot = ship_mine_layer_1
+			}
+		}
+		create_equipment_variant = {
+			name = "Uorroa Class"
+			type = ship_hull_carrier_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_armor_slot = empty
+				fixed_ship_deck_slot_1 = ship_deck_space
+				fixed_ship_deck_slot_2 = ship_deck_space
+				fixed_ship_engine_slot = carrier_ship_engine_1
+				fixed_ship_radar_slot = empty
+				fixed_ship_secondaries_slot = ship_secondaries_1
+				front_1_custom_slot = ship_deck_space
+				mid_1_custom_slot = ship_deck_space
+			}
+		}
+		create_equipment_variant = {
+			name = "Aow Class"
+			type = ship_hull_submarine_1
+			parent_version = 0
+			modules = {
+				fixed_ship_engine_slot = sub_ship_engine_1
+				fixed_ship_torpedo_slot = ship_torpedo_sub_1
+				rear_1_custom_slot = ship_torpedo_sub_1
+			}
+		}
+
+	}
+
 
 recruit_character = MIR_Dzerjinskiy_Roman_Igorevich
+recruit_character = MIR_Bloerd_Cliort
+recruit_character = MIR_Uim_Udrald
+recruit_character = MIR_Tru_Oet
+recruit_character = MIR_Oev_Iobwoa
+recruit_character = MIR_Dreark_Oelkou
+recruit_character = MIR_Droark_Dra
+recruit_character = MIR_Swirruo_Blerroe
+recruit_character = MIR_Aorrio_Eaw
+recruit_character = MIR_Cla_Oaz
+recruit_character = MIR_Otrird_Bluold
+recruit_character = MIR_Tralkao_Uov
+recruit_character = MIR_Swe_Udrald
+recruit_character = MIR_Uil_Oez
+recruit_character = MIR_Eblark_Uiw
+recruit_character = MIR_Tralkao_Itrurd
+recruit_character = MIR_Uswald_Oalkea
+recruit_character = MIR_Oav_Oay
+recruit_character = MIR_Dralkui_Oalkea
+recruit_character = MIR_Dribwoa_Swu
+recruit_character = MIR_Ablirt_Swa
+recruit_character = MIR_Uil_Bluold
+recruit_character = MIR_Cluard_Uibwuo
+recruit_character = MIR_Truosk_Uaj
+recruit_character = MIR_Clourd_Bliccio
+recruit_character = MIR_Swourt_Drerlio
+recruit_character = MIR_Eblild_Ourrio
+recruit_character = MIR_Dre_Uov
+recruit_character = MIR_Dreark_Idrork
+recruit_character = MIR_Oav_Uaccau
+recruit_character = MIR_Truosk_Aobwau
+recruit_character = MIR_Tru_Uov
+recruit_character = MIR_Eac_Ble
+recruit_character = MIR_Uil_Uaf
+recruit_character = MIR_Truosk_Aurluo
+recruit_character = MIR_Dre_Swubwoa
+recruit_character = MIR_Aorrio_Truald
+recruit_character = MIR_Truosk_Swibwea
+recruit_character = MIR_Trourt_Cliort
+recruit_character = MIR_Eblild_Etresk
+recruit_character = MIR_Otrird_Uirlui
+recruit_character = MIR_Blirroa_Troart
+recruit_character = MIR_Trourt_Auw
+recruit_character = MIR_Utrerd_Out
+recruit_character = MIR_Cle_Swubwoa
+recruit_character = MIR_Tro_Bli
+recruit_character = MIR_Dreald_Blo
+recruit_character = MIR_Trobwua_Auw
+recruit_character = MIR_Dralkui_Uov
+recruit_character = MIR_Adrord_Uirlui
+recruit_character = MIR_Utrerd_Bloccui
+recruit_character = MIR_Swirruo_Iobwoa
+recruit_character = MIR_Aun_Uaccau
+recruit_character = MIR_Tri_Uij
+recruit_character = MIR_Clorruo_Eswask
+recruit_character = MIR_Drerlua_Cliort
+recruit_character = MIR_Utrerd_Druart
+recruit_character = MIR_Oah_Bluold
+recruit_character = MIR_Ublusk_Out
+recruit_character = MIR_Eclurd_Cloark
+recruit_character = MIR_Swuccau_Uaf
+recruit_character = MIR_Eclurd_Bloccui
+recruit_character = MIR_Swuark_Bluold
+recruit_character = MIR_Clurlui_Atruld
+recruit_character = MIR_Aoccea_Uiw
+recruit_character = MIR_Tre_Oaj
+recruit_character = MIR_Adrord_Blo
+recruit_character = MIR_Clourd_Ablild
+recruit_character = MIR_Clorruo_Drelkua
+recruit_character = MIR_Oub_Oeccua
+recruit_character = MIR_Aoccea_Druart
+recruit_character = MIR_Iolkuo_Bli
+recruit_character = MIR_Trourt_Troart
+recruit_character = MIR_Iblord_Dra
+recruit_character = MIR_Sweccui_Etrerd
+recruit_character = MIR_Ealkuo_Uaf
+recruit_character = MIR_Drurlio_Swulkuo
+recruit_character = MIR_Swuccau_Aobwau
+recruit_character = MIR_Swirruo_Dra
+recruit_character = MIR_Ioccao_Drelkua
+recruit_character = MIR_Droark_Uorlea
+recruit_character = MIR_Otrird_Iblisk
+recruit_character = MIR_Droark_Trorloa
+recruit_character = MIR_Dreask_Ble
+recruit_character = MIR_Adrerd_Drirloa
+recruit_character = MIR_Swuark_Trarruo
+recruit_character = MIR_Clu_Clauld
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_research_slots = 4
+set_convoys = 102
+set_stability = 54
+set_war_support = 19
 
 set_politics = {
-  ruling_party = democratic 
+	ruling_party = communism
   last_election = "1936.1.1"
   election_frequency = 24
   elections_allowed = yes
 }
-
 set_popularities = {
-  democratic = 60
+  communism = 60
   fascism = 5
-  communism = 30
+  democratic = 30
   neutrality = 5
 }
+
+
+#create_faction = templateFactionName
+#add_to_faction = MIR
+

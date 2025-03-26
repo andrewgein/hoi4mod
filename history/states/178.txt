@@ -1,0 +1,36 @@
+
+state={
+	id=178
+	name="STATE_178"
+	manpower = 6540146
+	
+	state_category = rural
+	resources={
+		aluminium=1
+		chromium=1
+		oil=0
+		rubber=0
+		steel=3
+		tungsten=0
+	}
+
+	history={
+		victory_points = { 436 18}
+		
+		owner = MIR
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = MIR
+	}
+
+	provinces={
+		436 
+	}
+	local_supplies=0.0 
+}

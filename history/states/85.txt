@@ -1,0 +1,37 @@
+
+state={
+	id=85
+	name="STATE_85"
+	manpower = 21398983
+	
+	state_category = metropolis
+	resources={
+		aluminium=12
+		chromium=21
+		oil=4
+		rubber=27
+		steel=15
+		tungsten=6
+	}
+
+	history={
+		victory_points = { 212 27}
+		victory_points = { 213 50}
+		
+		owner = PSA
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 5
+			industrial_complex = 5
+			
+			
+		}
+		add_core_of = PSA
+	}
+
+	provinces={
+		212 213 
+	}
+	local_supplies=0.0 
+}

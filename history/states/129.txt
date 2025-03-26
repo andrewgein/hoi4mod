@@ -1,0 +1,38 @@
+
+state={
+	id=129
+	name="STATE_129"
+	manpower = 12223802
+	
+	state_category = large_town
+	resources={
+		aluminium=0
+		chromium=0
+		oil=20
+		rubber=19
+		steel=0
+		tungsten=6
+	}
+
+	history={
+		victory_points = { 313 8}
+		victory_points = { 314 12}
+		victory_points = { 315 21}
+		
+		owner = PSA
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 3
+			industrial_complex = 2
+			
+			
+		}
+		add_core_of = PSA
+	}
+
+	provinces={
+		313 314 315 
+	}
+	local_supplies=0.0 
+}

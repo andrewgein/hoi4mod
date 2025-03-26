@@ -1,0 +1,38 @@
+
+state={
+	id=102
+	name="STATE_102"
+	manpower = 7873058
+	
+	state_category = rural
+	resources={
+		aluminium=5
+		chromium=0
+		oil=8
+		rubber=0
+		steel=5
+		tungsten=0
+	}
+
+	history={
+		victory_points = { 252 18}
+		victory_points = { 253 3}
+		victory_points = { 254 3}
+		
+		owner = PSA
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 2
+			
+			
+		}
+		add_core_of = PSA
+	}
+
+	provinces={
+		252 253 254 
+	}
+	local_supplies=0.0 
+}
