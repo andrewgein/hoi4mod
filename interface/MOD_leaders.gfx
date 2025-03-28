@@ -3,4 +3,26 @@ spriteTypes = {
 		name = "GFX_portrait_dzerjinkiy"
 		texturefile = "gfx/leaders/MIR/Portrait_MIR_dzerjinkiy.dds" 
 	}
+	spriteType = {
+		name = "GFX_portrait_plachenov"
+		texturefile = "gfx/leaders/MIR/Portrait_MIR_plachenov.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_arbuzov"
+		texturefile = "gfx/leaders/MIR/Portrait_MIR_arbuzov.dds" 
+		
+	}
+	spriteType = {
+		name = "GFX_portrait_kudj"
+		texturefile = "gfx/leaders/MIR/Portrait_MIR_kudj.dds" 
+		
+	}
+	spriteType = {
+		name = "GFX_portrait_igonina"
+		texturefile = "gfx/leaders/MIR/Portrait_MIR_igonina.dds" 
+	}
+		spriteType = {
+		name = "GFX_portrait_safronov"
+		texturefile = "gfx/leaders/MIR/Portrait_MIR_safronov.dds" 
+	}
 }
