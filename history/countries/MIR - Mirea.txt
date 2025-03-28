@@ -261,6 +261,7 @@ recruit_character = MIR_Safronov
 recruit_character = MIR_Arbuzov
 recruit_character = MIR_Kudj
 recruit_character = MIR_Dzerjinskiy
+recruit_character = MIR_Gorkush
 
 
 

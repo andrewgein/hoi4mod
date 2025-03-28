@@ -159,7 +159,7 @@ if = {
 	}
 
 
-recruit_character = PSA_Umiu_Ibiu
+recruit_character = PSA_Komissarov
 recruit_character = PSA_Ung_Blembio
 recruit_character = PSA_Azii_Blusheu
 recruit_character = PSA_Iiss_Phult
@@ -262,15 +262,15 @@ set_stability = 79
 set_war_support = 71
 
 set_politics = {
-	ruling_party = communism
+	ruling_party = neutrality
 	last_election = "1913.1.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 27
+	democratic = 28
 	fascism = 23
-	communism = 28
+	communism = 27
 	neutrality = 22
 }
 

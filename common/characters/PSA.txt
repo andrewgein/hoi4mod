@@ -1,15 +1,26 @@
 characters = {
-	PSA_Umiu_Ibiu={
-		name="Umiu Ibiu"
-
-		
-		country_leader={
-			ideology=centrism
-			traits = { headstrong  }
-			expire="1965.1.1.1"
-			id=-1
+	PSA_Komissarov = { 
+		name = "Komissarov Alexey"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_komissarov
+			}
+			
 		}
-
+		country_leader = {
+			ideology=oligarchism
+			expire = "2055.1.1.1"
+			id = -1
+		}
+		field_marshal = {
+			traits = { politically_connected irregulars_officer }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
 	}
 	PSA_Ung_Blembio={
 		name="Ung Blembio"

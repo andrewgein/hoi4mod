@@ -1,0 +1,10 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_idea_MIR_gorkush"
+		texturefile = "gfx/interface/ideas/MIR/Portrait_MIR_gorkush.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_gorkush"
+		texturefile = "gfx/leaders/MIR/Portrait_MIR_gorkush.dds"
+	}
+}

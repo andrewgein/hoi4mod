@@ -21,8 +21,16 @@ spriteTypes = {
 		name = "GFX_portrait_igonina"
 		texturefile = "gfx/leaders/MIR/Portrait_MIR_igonina.dds" 
 	}
-		spriteType = {
+	spriteType = {
 		name = "GFX_portrait_safronov"
 		texturefile = "gfx/leaders/MIR/Portrait_MIR_safronov.dds" 
 	}
+	spriteType = {
+		name = "GFX_portrait_komissarov"
+		texturefile = "gfx/leaders/PSA/Portrait_PSA_komissarov.dds" 
+	}
+	spriteType = {
+		name = "GFX_portrait_torkunov"
+		texturefile = "gfx/leaders/MGO/Portrait_MGO_torkunov.dds" 
+	}	
 }

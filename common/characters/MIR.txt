@@ -108,9 +108,18 @@ characters = {
 			legacy_id = -1
 		}
 	}
-	
-	
-	
-	
-	
-}
+	MIR_Gorkush = { 
+		name = "Gorkush Svetlana"
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_gorkush"
+				small = "GFX_idea_MIR_gorkush"
+			}
+			}
+	    advisor = {
+			slot = political_advisor
+			ledger = army
+			traits = { 150 }      # Unspecified cost defaults to 150.
+		}
+	}	
+}	

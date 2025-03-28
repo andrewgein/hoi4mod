@@ -1,15 +1,26 @@
 characters = {
-	MGO_Ble_Swoult={
-		name="Ble Swoult"
-
-		
-		country_leader={
-			ideology=centrism
-			traits = { exiled  }
-			expire="1965.1.1.1"
-			id=-1
+	MGO_Torkunov = { 
+		name = "Torkunov Anatoliy"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_torkunov
+			}
+			
 		}
-
+		country_leader = {
+			ideology=liberalism
+			expire = "2055.1.1.1"
+			id = -1
+		}
+		field_marshal = {
+			traits = { politically_connected irregulars_officer }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
 	}
 	MGO_Qua_Icluom={
 		name="Qua Icluom"
